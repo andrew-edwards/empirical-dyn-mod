@@ -32,5 +32,12 @@ macDonald12sockeye.pdf - Res. Doc. has the performance metrics. Sue thinks that 
 8. Understand how to deal with uncertainty of results.
 
 
+###For the Ecosystem Approach workshop
+
+1. Need better understanding of the methods.
+2. Need code running for at least the Fraser River Sockeye so we can extend it and explore further ideas.
+3. Have code running for one theoretical model.
+4. Have code set up for multispecies time series, if anyone is bringing one to the workshop. 
+
 
 

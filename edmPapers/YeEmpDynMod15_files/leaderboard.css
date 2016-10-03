@@ -1,0 +1,31 @@
+div.hw-gen-page div#header {
+	position: relative;
+	margin: 0 0 100px 0;
+	padding: 0;
+	top: 100px;
+}
+div.leaderboard-ads {
+	position: absolute;
+	top: 0px; left: 0px;
+	height: 100px;
+	background-color: #cccccc;
+	white-space: nowrap;
+	width: 1000px;
+	overflow: hidden;
+	margin: 0 0 0 -20px;
+	padding: 0;
+}
+div.leaderboard-ads ul {
+	position: relative;
+	list-style: none;
+	margin: 0; padding: 0;
+	text-align: center;
+}
+div.leaderboard-ads ul li {
+	display: inline;
+	padding: 0;
+	margin: 0 5px;
+}
+div.leaderboard-ads a:hover {
+	border: none;
+}

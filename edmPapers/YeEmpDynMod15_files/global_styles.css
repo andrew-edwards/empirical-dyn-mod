@@ -1,0 +1,682 @@
+/**************************************************
+*     PNAS to override HW CSS                     *
+**************************************************/
+
+#main #proxied-contents ul.reglist {
+    font-family: arial,helvetica,sans-serif;
+    line-height: 15px;
+    list-style-image: url("images/bullet.gif");
+    list-style-type: square;
+}
+
+#pageid-unknown #proxied-contents dl,
+
+#pageid-unknown #proxied-contents span {
+    display:block;
+    margin: 10px 0 0 10px;
+}
+
+#pageid-unknown #proxied-contents table {
+    line-height: 110%;
+    margin: 10px 0 0 10px;
+}
+
+#pageid-unknown #proxied-contents table table table,
+
+#pageid-unknown #proxied-contents table table{
+    margin: 0;
+}
+
+#pageid-unknown #proxied-contents td#tdheader {
+    height: 30px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#pageid-unknown #content-block #proxied-contents #local_content h1,
+#pageid-subscribe #content-block #proxied-contents #local_content h1 {
+    margin: 0 0 15px 0;
+}
+
+/***********************************************************
+  Special Features page
+***********************************************************/
+
+#pageid-unknown #proxied-contents div#sflisting { overflow:auto;}
+
+#pageid-unknown #proxied-contents div#sflisting li { padding: 0 0 10px 0; }
+#pageid-unknown #proxied-contents div#sflisting img { float: right; margin: 0 0 0 10px; width: 134px; height: 178px; border: 1px solid #000000;}
+
+#pageid-unknown #proxied-contents div#sfheadings { background:#f5f5f5; border 1px solid #bbb; margin-top: 20px; margin-bottom: 30px; font-size: 14px; width:495px;}
+#pageid-unknown #proxied-contents div#sfheadings h3{ background:#f5f5f5; border 1px solid #bbb; margin-top: 20px;margin-bottom: 30px; font-size: 14px; width:495px; }
+#pageid-unknown #proxied-contents .sfdrpdwn {width:300px;}
+#pageid-unknown #proxied-contents .footnote1 {color: #606060; font-size:12px; width:300px;margin: 0px; padding:0px; }
+
+
+/***********************************************************
+  Special Features SY page
+***********************************************************/
+
+
+#pageid-unknown #proxied-contents div#sflistingsy ul { padding; 0px; margin: 0px; width: 500px;}
+#pageid-unknown #proxied-contents div#sflistingsy li { padding; 0px; margin: 0px; }
+#pageid-unknown #proxied-contents div#sflistingsy img { float: right; margin: 0; width: 134px; height: 178px; border: 1px solid #000000;}
+#pageid-unknown #proxied-contents div#sflistingsy h3{ margin:0px;padding:0px;}
+ 
+  
+/***********************************************************
+  for Authors page
+***********************************************************/
+
+#pageid-unknown #proxied-contents .grey2 li{list-style: none;padding-left: 30px;margin-left: 0px; margin-top: 10px;}
+#pageid-unknown #proxied-contents .grey2 li a{color:#003767;}
+#pageid-unknown #proxied-contents div#nobullet { list-style: none;font-weight: normal;font-size: 12px; padding-top: 0px; padding-bottom:0px;}
+#pageid-unknown #proxied-contents #iforapdf2014 {margin-bottom:-10px;}
+#pageid-unknown #proxied-contents #indent1 {margin-bottom:-30px; margin-top:0px;}
+#pageid-unknown #proxied-contents #indent2 {margin-bottom:-30px; margin-top:30px;}
+#pageid-unknown #proxied-contents #indent3 {margin-top:30px;}
+#pageid-unknown #proxied-contents .indent4 {margin-top:2px;}
+#pageid-unknown #proxied-contents #indent5 {margin-top:-15px; margin-bottom:-10px;}
+#pageid-unknown #proxied-contents #indent12 {margin-bottom:-10px; margin-top:0px;}
+#pageid-unknown #proxied-contents #indent6 {margin-bottom:-30px;color:#ffffff;}
+#pageid-unknown #proxied-contents #indent7 {margin-bottom:-5px; margin-top:0px;}
+#pageid-unknown #proxied-contents #iforapdf2014 {margin-bottom:-10px; margin-top:10px; color:#ffffff;}
+#pageid-unknown #proxied-contents .indent8 {margin-left:10px; margin-bottom:-5px;}
+#pageid-unknown #proxied-contents .indent9 {margin-left:30px; margin-bottom:-5px;}
+#pageid-unknown #proxied-contents #indent10 {margin-top:10px;}
+#pageid-unknown #proxied-contents #spaceforcontent {width:500px;}
+#pageid-unknown #proxied-contents #submitcolumn1 {width:230px; float:left;}
+#pageid-unknown #proxied-contents #submitcolumn2 {width:230px; float:right;}
+#pageid-unknown #proxied-contents #submitpagedate {width:300px; float:left; clear:both;}
+#pageid-unknown #proxied-contents .indentpadding15 {margin-left:20px; margin-bottom:0px;}
+#pageid-unknown #proxied-contents .indentpadding16 {margin-left:75px; margin-bottom:0px;}
+#pageid-unknown #proxied-contents .iforaheading15 {float:left;}
+#pageid-unknown #proxied-contents .iforanav15 {float:right;}
+#pageid-unknown #proxied-contents .iforaclear15 {clear:both;}
+#pageid-unknown #proxied-contents h2#header2margin {margin:10px 0px 10px 0px;}
+#pageid-unknown #proxied-contents #videospace {margin:80px 0px 10px 0px;}
+
+
+
+
+
+
+/***********************************************************
+  For Reviewers page
+***********************************************************/
+
+#pageid-unknown #proxied-contents .reviewerslist {padding-left:18px;}
+
+/***********************************************************
+  Highlights page
+***********************************************************/
+
+#pageid-unknown #proxied-contents .highlightslisting {padding-left:18px;}
+
+
+/***********************************************************
+  masthead page
+***********************************************************/
+
+#pageid-unknown #proxied-contents div#mastheadsection {width: 500px; }
+#pageid-unknown #proxied-contents div#mastheadsection h3{margin: 0px; padding: 5px;}
+#pageid-unknown #proxied-contents .mastheadaes {width:158px; padding-right: 7px; float:left;}
+#pageid-unknown #proxied-contents .mastheadlisting li {padding: 2px;}
+#pageid-unknown #proxied-contents .mastheadtitle {padding-top:10px; }
+#pageid-unknown #proxied-contents .headingspace {padding-top:10px; }
+
+
+
+/***********************************************************
+  Mobile pages
+***********************************************************/
+
+#pageid-unknown #proxied-contents #bold2014 {margin-left:10px; margin-bottom:0px;}
+
+
+/***********************************************************
+  RSS pages
+***********************************************************/
+
+#pageid-unknown #proxied-contents .bold2014 {margin-left:10px; margin-bottom:0px;}
+
+
+/**********************************************************
+  PNAS in the News page
+***********************************************************/
+
+#pageid-unknown #proxied-contents .feature1 { float: left; padding: 10px; width: 215px; border: 0px;}
+#pageid-unknown #proxied-contents .feature1 img{ width: 230px; height:173px;}
+#pageid-unknown #proxied-contents .feature2 { float: right; padding: 10px; width: 215px; border: 0px;}
+
+#pageid-unknown #proxied-contents #news_main {float:left; padding-bottom:10px; }
+#pageid-unknown #proxied-contents #news_main img{float:left; padding-bottom:10px; margin:4px; }
+#pageid-unknown #proxied-contents #news_main li.icon{ padding: 0; margin: 5px 5px 15px 0;border:solid; border:1px; border-color:#666;}
+
+
+#pageid-unknown #proxied-contents .mainfeature {float:left; margin:0px; border:solid; border-color:#ccc;}
+#pageid-unknown #proxied-contents .thumbnails {float: left; margin:0 5px 10px 0; border:solid; border-color:#ccc;}
+
+
+#pageid-unknown #proxied-contents div#morerecentnews {float:left; width: 500px;}
+#pageid-unknown #proxied-contents div#morerecentnews2 {float:left; width: 500px;}
+
+#pageid-unknown #proxied-contents .pitncontainer {width:500px; height:normal;}
+#pageid-unknown #proxied-contents .pitnimg {width:170px; float:left;}
+#pageid-unknown #proxied-contents .pitntext {width:330px; float:right;margin:0; padding:0px;}
+#pageid-unknown #proxied-contents .pitntext h3{margin:0px;}
+#pageid-unknown #proxied-contents .pitntext p{margin:0px;}
+#pageid-unknown #proxied-contents .pitntext img{padding-bottom:5px; padding-top:5px;}
+
+
+/**********************************************************
+  PNAS Top 10 Stories of 2011
+***********************************************************/
+
+
+#pageid-unknown #proxied-contents #news2011 {float:left; padding-bottom:10px; }
+#pageid-unknown #proxied-contents #news2011 img{float:right; padding-bottom:10px; margin:4px; border:solid; border:1px; border-color:#666;}
+#pageid-unknown #proxied-contents .icon2011 img{float:left; padding-bottom:10px; margin:4px; border:solid; border:1px; border-color:#666;}
+
+#pageid-unknown #proxied-contents #topten2011 { margin: 10px;}
+#pageid-unknown #proxied-contents #topten2011 h3{ line-height: 1.2em;}
+#pageid-unknown #proxied-contents #topten2011 ul {list-style-type: none;width: 500px;}
+#pageid-unknown #proxied-contents #topten2011 li img.topten {float: right;margin: 0 15px 0 10px;border:solid; border-color:#ccc; }
+#pageid-unknown #proxied-contents #topten2011 li {padding: 10px; overflow: auto;}
+
+/**********************************************************
+  Contacts page
+***********************************************************/
+
+#pageid-unknown #proxied-contents .contctpge {line-height:.75em; padding:0px;}
+
+/**********************************************************
+  New & Newsworthy page
+***********************************************************/
+#pageid-unknown #proxied-contents .button1 {
+   border-radius: 10px;
+   -moz-border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: inline-block;
+    font: 11px/100% Arial,Helvetica,sans-serif;
+    margin: 0 2px;
+    outline: medium none;
+    padding: 0.5em 2em 0.55em;
+    text-align: center;
+    text-decoration: none;
+  text-transform:uppercase;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    vertical-align: baseline;
+  }
+#pageid-unknown #proxied-contents  .blue1 {color: #fff; font-weight:bold; background:#004c7c; border: 0px solid #0065a4; border-width: 2px;} /* blue for button */
+#pageid-unknown #proxied-contents .button1:hover { background:#0065a4;}
+
+#pageid-unknown #proxied-contents .button1 a {color:#fff; text-decoration:none;}
+#pageid-unknown #proxied-contents .button1 a:hover {text-decoration:none;}
+#pageid-unknown #proxied-contents .fade_blue1 {color: #fff; font-weight:bold; background:#bfd1dc; border: 0px solid #bfd1dc; border-width: 2px;}
+
+#pageid-unknown #proxied-contents button1{ font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; line-height: normal; cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+
+/**********************************************************
+  Cozzarelli page
+***********************************************************/
+
+#pageid-unknown #proxied-contents div#cozztext { overflow:auto;}
+#pageid-unknown #proxied-contents div#cozztext ul { width: 500px;}
+#pageid-unknown #proxied-contents div#cozztext li { padding: 10px; overflow: auto;}
+#pageid-unknown #proxied-contents div#cozztext img { float: right; margin: 0 15px 0 0; width: 300px; height: 264px;}
+
+#pageid-unknown #proxied-contents div#cozztext1 { overflow:auto;}
+#pageid-unknown #proxied-contents div#cozztext1 ul { width: 500px;}
+#pageid-unknown #proxied-contents div#cozztext1 li { padding: 10px; overflow: auto;}
+#pageid-unknown #proxied-contents div#cozztext1 img { float: right; margin: 0 15px 0 0; width: 300px; height: 189px;}
+
+#pageid-unknown #proxied-contents div#cozztext2 { overflow:auto;}
+#pageid-unknown #proxied-contents div#cozztext2 ul { width: 500px;}
+#pageid-unknown #proxied-contents div#cozztext2 li { padding: 10px; overflow: auto;}
+#pageid-unknown #proxied-contents div#cozztext2 img { float: right; margin: 0 15px 0 0; width: 300px; height: 240px;}
+
+#pageid-unknown #proxied-contents div#cozztext3 { overflow:auto;}
+#pageid-unknown #proxied-contents div#cozztext3 ul { width: 500px;}
+#pageid-unknown #proxied-contents div#cozztext3 li { padding: 10px; overflow: auto;}
+#pageid-unknown #proxied-contents div#cozztext3 img { float: right; margin: 0 15px 0 0; width: 300px; height: 198px;}
+
+#pageid-unknown #proxied-contents div#cozztext4 { overflow:auto;}
+#pageid-unknown #proxied-contents div#cozztext4 ul { width: 500px;}
+#pageid-unknown #proxied-contents div#cozztext4 li { padding: 10px; overflow: auto;}
+#pageid-unknown #proxied-contents div#cozztext4 img { float: right; margin: 0 15px 0 0; width: 300px; height: 266px;}
+
+
+/***********************************************************
+  Classics page SY
+***********************************************************/
+
+#pageid-unknown #proxied-contents div#cllisting { overflow:auto; width:240px;}
+#pageid-unknown #proxied-contents div.classimage { float:right; width:252px;}
+    #pageid-unknown #proxied-contents div.classimage img { border:1px solid #000000;}
+#pageid-unknown #proxied-contents div.classimage li { float:right;}
+#pageid-unknown #proxied-contents div#cllisting img { float: right; margin: 0 0 0 10px; border: 1px solid #004C7C;}
+#pageid-unknown #proxied-contents #local_content #cllisting p img{border: medium none; float: left; margin: 0px}
+
+/**********************************************************
+  Classics page
+***********************************************************/
+
+#pageid-unknown #proxied-contents div#classiclisting { overflow:auto;}
+#pageid-unknown #proxied-contents div#classiclisting ul { width: 500px;}
+#pageid-unknown #proxied-contents div#classiclisting li { padding: 10px; overflow: auto;}
+#pageid-unknown #proxied-contents div#classiclisting img { float: right; margin: 15 15px 15 15; width: 250px;}
+
+/**********************************************************
+  Classics article pages
+***********************************************************/
+#pageid-unknown #proxied-contents div#local_contentClassics {width:700px; margin:10px; padding:0px;}
+#pageid-unknown #proxied-contents .picture { background-color: #eeeedd;border: 1px solid #CCCCCC; padding: 3px;}
+#pageid-unknown #proxied-contents .picture img { border: 1px solid #CCCCCC;vertical-align:middle; margin-bottom: 3px; }
+#pageid-unknown #proxied-contents .right { margin: 0.5em 0pt 0.5em 0.8em; float:right; }
+#pageid-unknown #proxied-contents .left { margin: 0.5em 0.8em 0.5em 0; float:left; }
+
+
+/***********************************************************
+ Colloquia Page
+***********************************************************/
+
+#pageid-unknown #proxied-contents .colloquiatitle {font-weight:bold;}
+#pageid-unknown #proxied-contents .colloquiaref {margin: 0; padding: 0.25em 0 1.25em 0;}
+#pageid-unknown #proxied-contents .collapselist2014 {margin-bottom:0px;}
+#pageid-unknown #proxied-contents .expand2014 {margin-bottom:15px;}
+
+
+
+
+/***********************************************************
+ Developing Countries Page
+***********************************************************/
+
+#pageid-unknown #proxied-contents #devcountriescolumns {width:500px;}
+#pageid-unknown #proxied-contents .devcountriescolumn {float: left; width: 165px;}
+
+/***********************************************************
+ FAQs
+***********************************************************/
+
+#pageid-unknown #proxied-contents .collapselist {margin-bottom:10px;}
+#pageid-unknown #proxied-contents .expand {margin-bottom:15px;}
+
+
+/***********************************************************
+ authors/authorfaq.xhtml
+***********************************************************/
+
+#pageid-unknown #proxied-contents #indent1 {margin-bottom:-30px; margin-top:0px;}
+#pageid-unknown #proxied-contents #indent2 {margin-bottom:-30px; margin-top:30px;}
+#pageid-unknown #proxied-contents #indent3 {margin-top:30px;}
+#pageid-unknown #proxied-contents .indent4 {margin-top:2px;}
+#pageid-unknown #proxied-contents .collapselist {margin-bottom:10px;}
+#pageid-unknown #proxied-contents .expand {margin-bottom:15px;}
+
+
+/***********************************************************
+ RSS
+***********************************************************/
+
+#pageid-unknown #proxied-contents .articletype2014 {margin-left:30px;}
+
+/**********************************************************
+  Organic Synthesis pages
+***********************************************************/
+#pageid-unknown #proxied-contents div#local_contentOrganicSynthesis {width:700px; margin:15px; padding:0px;}
+#pageid-unknown #proxied-contents ul {margin: 0; padding: 0; list-style-type:none; display:inline;}
+#pageid-unknown #proxied-contents .titleOS {font-weight:bold;}
+#pageid-unknown #proxied-contents .abstractOS {display:inline;padding-right:15px;}
+#pageid-unknown #proxied-contents .fulltextOS {display:inline;border-left: 1px solid #CCCCCC; margin-left: 0; padding: 0 15px;}
+
+
+/**********************************************************
+  Organic Synthesis pages SY
+***********************************************************/
+#pageid-unknown #proxied-contents div#local_contentOS {float: left; overflow: hidden; margin: 20px; padding-right: 20px; width: 533px;}
+#pageid-unknown #proxied-contents .OSentry {padding-bottom:10px;}
+#pageid-unknown #proxied-contents ul {margin: 0; padding: 0; list-style-type:none; display:inline;}
+#pageid-unknown #proxied-contents .OSdoi {font-style: normal; margin-top: .25em; margin-bottom:.25em;}
+#pageid-unknown #proxied-contents .titleOS1 {color: #111111; display: block; font-size: 1em; font-weight: bolder; margin-top: 0.2em;}
+#pageid-unknown #proxied-contents .abstractOS1 { display:inline;padding-right:15px; font-size: 12px; font-weight: normal; line-height: 1.4;}
+#pageid-unknown #proxied-contents .fulltextOS1 {display:inline;border-left: 1px solid #CCCCCC; margin-left: 0; padding: 0 15px;font-size: 12px;
+    font-weight: normal;
+    line-height: 1.4;}
+
+/**********************************************************
+  Collected Articles page
+***********************************************************/
+
+#pageid-unknown #proxied-contents div#collectedpapers li { list-style:none; margin:0px; padding:5px;}
+
+/**********************************************************
+  Widgets page
+***********************************************************/
+
+#pageid-unknown #proxied-contents div.widget1 {display: inline; float: left; width: 200px; margin: 0 19px 0 0;}
+#pageid-unknown #proxied-contents div.clearfix1 {clear: left;}
+
+
+/**********************************************************
+  Podcast page
+***********************************************************/
+#pageid-unknown #proxied-contents .sfdrpdwn2012 {width:250px;}
+
+
+
+/**********************************************************
+  Image gallery page
+**********************************************************/
+#pageid-unknown #proxied-contents #videopagewidth {width:500px;}
+#pageid-unknown #proxied-contents .videoshell {padding:10px 0px 10px 0px;}
+#pageid-unknown #proxied-contents .videoimage {float:left; width:250px;}
+#pageid-unknown #proxied-contents .videotext {float:right; width:250px;}
+/*
+#pageid-unknown #proxied-contents #underlay{display:none; position:relative; top:0; left:0; width:100%; height:100%; background-color:#000; z-index: 99999; -moz-opacity:0.5; opacity:.50; filter:alpha(opacity=50);}
+
+#pageid-unknown #proxied-contents #lightbox{ display:none; position:relative; top:100px; left:0; width:auto; height:auto; background-color:#fff; z-index: 99999;}
+
+#pageid-unknown #proxied-contents #underlay1{ display:none; position:relative; top:0; left:0; width:100%; height:100%; background-color:#000; z-index: 99999; -moz-opacity:0.5; opacity:.50; filter:alpha(opacity=50);}
+
+#pageid-unknown #proxied-contents #lightbox1{ display:none; position:relative; top:100px; left:0; width:auto; height:auto; background-color:#fff; z-index: 99999;}*/
+
+/**********************************************************
+  Video library page
+***********************************************************/
+
+#pageid-unknown #proxied-contents #videopagewidth {width:500px;}
+#pageid-unknown #proxied-contents .videoshell {padding:10px 0px 10px 0px;}
+#pageid-unknown #proxied-contents .videoimage {float:left; width:250px;}
+#pageid-unknown #proxied-contents .videoimage img {border:solid; border-color:#ccc; width=230px; height:172px;}
+#pageid-unknown #proxied-contents .videotext {float:right; width:250px;}
+#pageid-unknown #proxied-contents div.vidlthumbnail {float: left; padding: 10px; width: 215px; border: 0px;}
+#pageid-unknown #proxied-contents div.vidrthumbnail {float: right; padding: 10px; width: 215px; border: 0px;}
+
+/***********************************************************
+  Rates page
+***********************************************************/
+#pageid-unknown #proxied-contents table.ratestable th {
+ padding: 7px;
+ }
+
+#pageid-unknown #proxied-contents table.ratestable {
+  width: 465px;
+  }
+
+#pageid-unknown #proxied-contents table.ratestable tbody {
+  background-color:#e4e4e4;
+   
+}
+  
+#pageid-unknown #proxied-contents table.ratestable td {
+  padding: 7px;
+  spacing: 10px;
+   
+}
+
+/***********************************************************
+  Rates page - SY
+***********************************************************/
+
+#pageid-unknown #proxied-contents .gridtable {border-width:1px; border-style: solid;border-color:#003767; border-collapse:collapse;}
+#pageid-unknown #proxied-contents .gridtable th {border-width: 1px; padding:8px; border-style: solid; border-color: #666666; background-color:#003767; color: #ffffff;}
+#pageid-unknown #proxied-contents .gridtable td {border-width: 1px; padding:10px; background-color:#dedede;}
+
+
+/***********************************************************
+  Institutional page
+***********************************************************/
+
+#pageid-unknown #proxied-contents .squarelist {
+  list-style-type: circle;
+list-style-position: inside;
+list-style-image: none;
+  
+}
+
+#pageid-unknown #proxied-contents .squarelist2 {
+  list-style-type: square;
+list-style-position: inside;
+list-style-image: none;
+  
+}
+
+/* eileen to test the preview mode style*/
+#content-block.eq #proxied-contents #local_content #archives  ul.reglist li{
+    background: url("/local/img/sidebar/square.gif") no-repeat scroll 0px 5px transparent;
+}
+#content-block.eq #proxied-contents #local_content #archives  ul.reglist {
+    list-style: none;
+}
+#content-block.eq #proxied-contents #local_content h1 a img {
+    float: right;
+}
+/* eileen to test the preview  mode*/
+
+/***********************************************************
+sitemap
+***********************************************************/
+
+#pageid-unknown #proxied-contents div#sitemaplisting {width: 500px;}
+#pageid-unknown #proxied-contents div#sitemapcolleft {width: 235px; float:left; padding-right:10px;}
+#pageid-unknown #proxied-contents div#sitemapcolleft ul {list-style:url(../misc/images/double-arrow-right.png); padding-left: 20px;}
+#pageid-unknown #proxied-contents div#sitemapcolleft li {margin-left: 10px; padding-bottom:5px;}
+#pageid-unknown #proxied-contents div#sitemapcolright {width: 235px; float:left; margin-left:10px;}
+#pageid-unknown #proxied-contents div#sitemapcolright ul {list-style:url(../misc/images/double-arrow-right.png); padding-left: 20px;}
+#pageid-unknown #proxied-contents div#sitemapcolright li {margin-left: 10px; padding-bottom:5px;}
+
+
+/***********************************************************
+  Frontiers page
+***********************************************************/
+
+#pageid-unknown #proxied-contents div#local_content1 {width:700px; margin:10px; padding:5px;}
+#pageid-unknown #proxied-contents li.frontierentry {list-style:none; padding-left: 20px;}
+#pageid-unknown #proxied-contents li.frontierheading {list-style:none; font-weight:bold;}
+
+/***********************************************************
+  I for A Redesign page
+***********************************************************/
+
+#pageid-unknown #proxied-contents div#iforamargin2014 {width:650px; margin:10px; padding:5px;}
+
+
+/***********************************************************
+  About PNAS page
+***********************************************************/
+/*h3*/
+#pageid-unknown #proxied-contents div.providemargin {margin-bottom:15px;}
+
+/*h2*/
+#pageid-unknown #proxied-contents div#h2init {margin-bottom:25px; margin-top:20px;}
+
+/*h2*/
+#pageid-unknown #proxied-contents div#h2issues {margin-bottom:25px;}
+
+/* Crosscheck */
+#pageid-unknown #proxied-contents div#crosscheck {float:left; width:70px; padding-right:6px; border-right:none;}
+#pageid-unknown #proxied-contents div#crosscheck img.crosscheck { width: 73px; height: 30px;}
+
+/* Crossmark */
+#pageid-unknown #proxied-contents div#crossmark {float:left; width:70px; padding-right:6px; padding-left:6px; border-right:none;}
+#pageid-unknown #proxied-contents div#crossmark img.crossmark { width: 70px; height: 30px;}
+
+
+/* FundRef */
+#pageid-unknown #proxied-contents div#fundref {float:left; width:75px;padding-right:0px; border-right:none;}
+#pageid-unknown #proxied-contents div#fundref img.fundref { width: 76px; height: 30px;}
+
+
+/* ORCID */
+#pageid-unknown #proxied-contents div#orcid {float:left; width:95px; padding-left:7px; padding-right:7px; border-right:none; margin-top:0px;}
+#pageid-unknown #proxied-contents div#orcid img.orcid { width: 98px; height: 30px;}
+
+
+/* CHORUS */
+#pageid-unknown #proxied-contents div#chorus {float:left; width:50px; height:85px; padding-left:5px; margin-top:-10px; border-right:none;}
+#pageid-unknown #proxied-contents div#chorus img.chorus { width: 42px; height: 50px; margin-top: -25px; padding-top:20px;}
+
+/* COPE */
+#pageid-unknown #proxied-contents div#cope {padding-right:0px; border-right:none;}
+#pageid-unknown #proxied-contents div#cope img.cope {margin-top: -15px;}
+
+
+/* BOXES */
+#pageid-unknown #proxied-contents div.collapselist123 {background-color:#e1e1e1; border:1px solid black; padding:10px;}
+#pageid-unknown #proxied-contents div.close {float:right;}
+
+
+/***********************************************************
+ SLIMBOX
+***********************************************************/
+
+
+#pageid-unknown #proxied-contents #lbOverlay {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  cursor: pointer;
+}
+
+
+#pageid-unknown #proxied-contents #lbCenter, #lbBottomContainer {
+  position: absolute;
+  z-index: 9999;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+
+#pageid-unknown #proxied-contents .lbLoading {
+  background: #fff url(../media/loading.gif) no-repeat center;
+}
+
+
+#pageid-unknown #proxied-contents #lbImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 10px solid #fff;
+  background-repeat: no-repeat;
+}
+
+
+#pageid-unknown #proxied-contents #lbPrevLink, #lbNextLink {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  outline: none;
+}
+
+
+#pageid-unknown #proxied-contents #lbPrevLink {
+  left: 0;
+}
+
+
+#pageid-unknown #proxied-contents #lbPrevLink:hover {
+  background: transparent url(../media/prevlabel.gif) no-repeat 0 15%;
+}
+
+
+#pageid-unknown #proxied-contents #lbNextLink {
+  right: 0;
+}
+
+
+#pageid-unknown #proxied-contents #lbNextLink:hover {
+  background: transparent url(../media/nextlabel.gif) no-repeat 100% 15%;
+}
+
+
+#pageid-unknown #proxied-contents #lbBottom {
+  font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #666;
+  line-height: 1.4em;
+  text-align: left;
+  border: 10px solid #fff;
+  border-top-style: none;
+}
+
+
+#pageid-unknown #proxied-contents #lbCloseLink {
+  display: block;
+  float: right;
+  width: 66px;
+  height: 22px;
+  background: transparent url(../media/closelabel.gif) no-repeat center;
+  margin: 5px 0;
+  outline: none;
+}
+
+
+#pageid-unknown #proxied-contents #lbCaption, #lbNumber {
+  margin-right: 71px;
+
+}
+
+
+#pageid-unknown #proxied-contents #lbCaption {
+  font-weight: bold;
+}
+
+ul#issue_cover_btn + div.col2_announcement_include {
+    margin: 30px 0 0 0;
+    padding: 30px 0 0 0;
+}
+br + div.col2_announcement_include {
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+
+div.col2_announcement_include + br {
+    display:none;
+}
+
+div#article-dyn-nav.content-box {
+    margin: 0;
+    padding: 10px 0;
+    border-top: 1px solid #BFBFBF
+}
+
+div.col2_announcement_include p {
+    margin-bottom: 0;
+}
+
+
+div.sub-article {
+    border-top: 2px solid black;
+    padding-top: 15px;
+    margin-top: 45px;
+}
+
+span.cit-sub-article-title {
+    display:none;
+}
+
+.cit .cit-extra .article_key .tooltip span {
+  padding: .5em; text-transform: none; color: #606060; font-family: Arial,sans-serif;
+}
+
+div#each-similar-articles span.cit-series-title {
+  display:none;
+}
+
+/***********************************************************
+  Homepage Sidebar Include File-Portals
+***********************************************************/
+
+#pageid-unknown #proxied-contents h3#red { 
+  color::#ff0000;
+}
+
+

@@ -1,0 +1,570 @@
+#content-block .cb-views {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    margin-left: -24px;
+    padding: 0px 10px 0px 20px;
+}
+
+#pageid-content #content-block a, #pageid-content #content-block div.contributors ol.contributor-list li span.name {
+    cursor: pointer;
+}
+
+#content-block .secondary-views li {
+    background-color: rgba(0, 0, 0, 0);
+    border: medium none;
+    display: inline-block;
+    font-size: 0.9em;
+    line-height: 2.4;
+    margin: 0;
+    padding: 0 5px 0 5px;
+    text-align: left;
+}
+
+#content-block .secondary-views li {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #ECECEC;
+    border-top: 1px solid #ECECEC;
+    border-left: 1px solid #ECECEC;
+ 
+    display: inline-block;
+    font-size: 0.9em;
+    line-height: 1.9;
+    margin: 0;
+    padding: 0 5px 0 5px;
+    text-align: left;
+} 
+/* For Tab Border*/
+#pageid-content #content-block .cb-views .secondary-views li {
+    padding:0px;
+    border:none;
+    border-bottom: 1px solid #000000;
+/*    margin: 0 0 2px; */
+    vertical-align:top;
+    float:left;
+}
+
+#pageid-content #content-block .cb-views .secondary-views li ul#content_box_errata li {
+border-bottom:none;
+}
+#pageid-content #content-block .secondary-views li a{
+    border-color: #ECECEC;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    margin: 0 2px;
+    padding: 3px 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #202020;
+}
+
+#pageid-content #content-block li.abstract a,
+#pageid-content #content-block li.full-text a,
+#pageid-content #content-block li.author-tab a,
+#pageid-content #content-block li.figures-only a,
+#pageid-content #content-block li.metrics a,
+#pageid-content #content-block li.related a,
+#pageid-content #content-block li.si a {
+color: #202020;
+}
+
+#pageid-content #content-block .cb-views .secondary-views li.active {
+    border: 1px solid #000000;
+    border-bottom: none;
+    padding: 0 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+#pageid-content #content-block .cb-views .secondary-views li .variant-indicator{
+    font-weight:normal;
+}
+#pageid-content #content-block .cb-views .secondary-views li.active a, #pageid-content #content-block .cb-views .secondary-views li.active .variant-indicator{
+    font-weight:normal;
+    border:none;
+}
+
+#pageid-content #content-block .cb-views .secondary-views li,
+#pageid-content #content-block .cb-views .secondary-views li.si,
+#pageid-content #content-block .cb-views .secondary-views li.abstract,
+#pageid-content #content-block .cb-views .secondary-views li.full-text,
+#pageid-content #content-block .cb-views .secondary-views li.author-tab,
+#pageid-content #content-block .cb-views .secondary-views li.figures-only,
+#pageid-content #content-block .cb-views .secondary-views li.metrics,
+#pageid-content #content-block .cb-views .secondary-views li.related {
+    background-color: #FAFAFA;
+}
+ 
+#pageid-content #content-block .cb-views .secondary-views li.full-text-pdf, 
+#pageid-content #content-block .cb-views .secondary-views li.full-si-pdf{
+	background-color: #FFFFFF;
+}
+
+
+/* END Tab Border */
+
+#pageid-content #content-block div#related-content {
+padding-top:10px;
+}
+
+body #pageid-content div#main div#sidebar div.access {
+display:none;
+}
+
+#content-block .pdf_icon_color {
+color:red;
+
+}
+
+#content-block .secondary-views li.full-text-pdf {
+ width: auto;
+}
+
+#content-block .secondary-views li.full-text-pdf a {
+/* padding-right:10px;
+padding-left:10px; */
+}
+
+#pageid-content #content-block  .secondary-views li.full-text-pdf a {
+  color: #ef4e4b;
+}
+
+.fa-rss:before {
+  padding-right: 10px;
+}
+
+.fa-globe:before {
+  padding-right: 10px;
+}
+
+.fa-folder-open:before {
+   padding-right: 10px;
+}
+
+#content-block  h4.cb-section-header {
+  padding-bottom: 10px;
+}
+
+#pageid-content #content-block  .secondary-views li.full-text-pdf {
+  width: auto;
+}
+
+#pageid-content #content-block  .secondary-views li.full-si-pdf img {
+    vertical-align: top;
+}
+
+#pageid-content #content-block .secondary-views li.full-si-pdf a {
+   border-width: 0 0 0 1px;
+}
+
+#pageid-content #content-block div.section.fn-group li {
+list-style: none;
+}
+
+#pageid-content #content-block .secondary-views li.full-text-pdf a {
+   border-width: 0;
+}
+
+/*
+#pageid-content #content-block .secondary-views li.si a {
+   border-width: 0 0 0 1px;
+}
+*/
+
+div#article-dyn-nav.content-box {
+  margin: 15px 0;
+
+}
+ 
+div#cb-art-soc.cb-section {
+border-top:1px solid #BFBFBF;
+padding-top: 8px
+
+}
+
+#sidebar.eq div.content-box.sidebar-tools div.cb-contents #cb-art-soc .expand a:link, #sidebar.eq div.content-box.sidebar-tools div.cb-contents #cb-art-soc .expand a.expand:visited a:link {
+  background:none;
+}
+
+.sidebar-tools .cb-contents #cb-art-soc span
+{
+    color: #202020;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/*#pageid-content div.related { */
+#pageid-content div#related-content,
+#pageid-content div#rel-related-article {
+display:none;
+}
+
+#content-block div#related-content.show-related {
+display:block;
+}
+
+#pageid-content #content-block.author-info div#cited-by,
+#pageid-content #content-block.si-tab div#cited-by,
+#pageid-content #content-block.metrics-tab div#cited-by,
+#pageid-content #content-block.figures-tab div#cited-by,
+#pageid-content #content-block.related-tab div#cited-by {
+display:none;
+}
+
+#pageid-content #content-block .cb-views .secondary-views li.si.active,
+#pageid-content #content-block .cb-views .secondary-views li.abstract.active,
+#pageid-content #content-block .cb-views .secondary-views li.full-text.active,
+#pageid-content #content-block .cb-views .secondary-views li.author-tab.active,
+#pageid-content #content-block .cb-views .secondary-views li.figures-only.active,
+#pageid-content #content-block .cb-views .secondary-views li.metrics.active,
+#pageid-content #content-block .cb-views .secondary-views li.related.active {
+  background-color: #FFFFFF;
+}
+
+#pageid-content div.related-content div.cit-metadata .cit-section,
+#pageid-content div.related-content div.cit-metadata ul.cit-auth-list,
+#pageid-content div.related-content div.cit-metadata .cit-title {
+margin-left:0;
+}
+
+#pageid-content #content-block.related-tab .temis-data #similar-articles #more-art,
+#pageid-content #content-block.related-tab .temis-data #similar-articles #less-art {
+display:none;
+}
+
+#pageid-content #content-block.related-tab .temis-data #similar-articles div.cit div.cit-metadata div.cit-metadata .cit-auth-list {
+display:block;
+}
+
+/* Bottom Border of tabbed view */
+/*
+#pageid-content #content-block .cb-views .secondary-views li {
+   position: relative;
+   top: 0.23em;
+}
+#pageid-content #content-block .cb-views .secondary-views.cit-views{
+    border-bottom: 1px solid #000000;
+    float: left;
+    width: 100%;
+}
+#content-block .secondary-views li a {
+	padding: 4px 5px 3px;
+}
+*/
+
+#pageid-content #content-block .secondary-views li.full-si-pdf {
+  width: auto;
+}
+#pageid-content #content-block  .secondary-views li.full-si-pdf a {
+   color: #ef4e4b;
+}
+div#pageid-content #content-block div.contributors div.cb-views {
+display:none;
+}
+
+//css changes for tabbed view redesign
+div#pageid-content #content-block div.cb-views .secondary-views li.nodata {
+display:none;
+}
+
+div#pageid-content #content-block div.author-info h1 {
+padding-top: 10px;
+}
+
+div#pageid-content #content-block div.author-info ol.author-group {
+list-style:none;
+margin-bottom:10px;
+padding-bottom: 20px;
+}
+
+div#pageid-content #content-block .article .kwk-group {
+border-bottom:none;
+}
+
+div#pageid-content #content-block div.fn-group,
+div#pageid-content #main #content-block div.article-info {
+padding-top:10px;
+border-top:  1px solid rgb(0, 102, 153);
+}
+
+div#pageid-content #content-block div.fn-group ul.pnas-footnotes li,
+div#pageid-content #main #content-block div.fn-group ul li {
+border:none;
+}
+
+div#pageid-content #main #content-block div.article-info p.vol-page {
+font-size:0.85em;
+line-height:0.7em;
+margin:0;
+padding:0;
+}
+
+div#pageid-content #main #content-block div.article-info p.doi {
+padding-left:200px;
+}
+
+div#pageid-content #main #content-block div.article-info p.doi .doi-title,
+div#pageid-content #main #content-block div.article-info p.pubmed-id .pubmedid-title,
+div#pageid-content #main #content-block div.article-info p.pub-his .pub-title {
+font-weight:bold;
+}
+div#pageid-content #main #content-block div.article-info p.doi span.doi, 
+div#pageid-content #main #content-block div.article-info p.pubmed-id .pubmedid,
+div#pageid-content #main #content-block div.article-info p.pub-his .pap-date {
+padding-left:10px;
+}
+
+div#pageid-content #main #content-block div.article-info p.pubmed-id {
+padding-left:153px;
+}
+
+div#pageid-content #main #content-block div.article-info p.pub-his {
+padding-left:95px;
+}
+
+div#pageid-content #content-block div.contributors div.cb-views {
+display:none;
+}
+
+div#pageid-content div#main #content-block div.metrics h4.altmetric {
+padding-top: 15px;
+}
+
+div#pageid-content div#main #content-block div.metrics div.altmetric-embed {
+margin: 20px;
+padding-left: 100px;
+}
+
+div#pageid-content div#main #content-block div.metrics div.altmetric-embed div.altmetric-embed {
+padding:0;
+}
+
+div#pageid-content div#main div#content-block div.usage-stats {
+padding:20px;
+border:1px solid #660033;
+font-size:80%;
+}
+
+div#pageid-content div#main div#content-block div.usage-stats ul.stats-view li {
+list-style:none;
+line-height:1.8em;
+}
+
+div#pageid-content div#main div#content-block div.usage-stats ul.stats-view li.stats-title {
+font-weight:bold;
+margin-left:175px;
+padding-bottom:5px;
+}
+
+div#pageid-content div#main div#content-block div.usage-stats ul.stats-view li.stats-title span {
+padding-left:25px;
+}
+
+div#pageid-content div#main div#content-block div.usage-stats ul.stats-view li span.row-header {
+font-weight:bold;
+display:inline-block;
+padding:0;
+width:170px;
+align:left;
+}
+
+div#pageid-content div#main div#content-block div.usage-stats ul.stats-view li.stats-title span.full,  
+div#pageid-content div#main div#content-block div.usage-stats ul.stats-view li.stats-title span.pdf,  
+div#pageid-content div#main div#content-block div.usage-stats ul.stats-view li span.row-full-count,
+div#pageid-content div#main div#content-block div.usage-stats ul.stats-view li span.row-pdf-count {
+padding:0 20px;
+display:inline-block;
+width:60px;
+text-align:right;
+}
+
+div#pageid-content div#main div#content-block div.usage-stats ul.stats-view li.stats-title span.abstract,  
+div#pageid-content div#main div#content-block div.usage-stats ul.stats-view li span.row-abs-count {
+padding:0 20px;
+display:inline-block;
+width:100px;
+text-align:right;
+}
+
+div#pageid-content div#main div#content-block div.hide-metrics,
+div#pageid-content div#main div#content-block div.usage-stats h4 {
+display:none;
+}
+
+div#pageid-content div#main div#content-block h4.article-usage {
+padding-top:10px;
+}
+
+div#pageid-content div#main div#content-block li.errata {
+padding-bottom:10px;
+list-style:none;
+}
+div#pageid-content div#main div#content-block li.errata span {
+color:red;
+}
+
+div#pageid-content div#main div#content-block div.cb-views li ul#content_box_errata li.errata {
+display:none;
+}
+
+#pageid-content #content-block div.related-content {
+ padding-top: 20px;
+}
+
+ul.kwd-group + div.section {
+    border-top: medium none;
+}
+
+div.cb-section.cb-views + div + div.section {
+    border-top: medium none;
+}
+
+#sidebar div#semantics-article {
+display:none;
+}
+
+#pageid-content div#each-similar-articles div.cit-metadata .cit-section,
+#pageid-content div#each-similar-articles div.cit-metadata .cit-auth-list,
+#pageid-content div#each-similar-articles div.cit-metadata .cit-title,
+#pageid-content div#each-similar-articles div.cit-metadata  cite abbr.site-title {
+margin-left:0;
+padding-left:0;
+}
+padding-left:40px;
+}
+
+.article.fulltext-view ul.kwd-group {
+border-bottom: 1px solid #BFBFBF;
+}
+
+#pageid-content div#sidebar.author-info div.content-box.other-arts div#cb-art-cit ol li:first-child, 
+#pageid-content div#sidebar.metrics-tab div.content-box.other-arts div#cb-art-cit ol li:first-child, 
+#pageid-content div#sidebar.related-tab div.content-box.other-arts div#cb-art-cit ol li:first-child, 
+#pageid-content div#sidebar.si-tab div.content-box.other-arts div#cb-art-cit ol li:first-child, 
+#pageid-content div#sidebar.figures-tab div.content-box.other-arts div#cb-art-cit ol li:first-child {
+display:none;
+}
+
+#content-block .hide-metrics {
+display:none;
+}
+
+#content-block div.related-content .cit .cit-metadata .cit-section,
+#content-block .temis-data .cit-metadata .cit-section {
+display:none;
+}
+
+#content-block div.author-info .author-group .author .author-orcid {
+padding-left:20px;
+margin:7px 0;
+}
+
+#content-block div.more-info span.title {
+font-size:0.9em;
+font-weight:bold;
+}
+
+#content-block div.more-info ul li.pct {
+font-size:0.8em;
+list-style:disc inside;
+}
+
+div#pageid-content ol.figonly-list li.figonly-item,
+div#pageid-content .fulltext-view .fig {
+    background-color: #EEEEEE;
+    border-color: #CCCCCC #AAAAAA #AAAAAA #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0;
+    margin: 1em 0;
+}
+
+div#pageid-content li.figonly-item div.fig {
+    margin: 5px 5px 5px 3px;
+}
+
+ol.figonly-list li.figonly-item .fig-inline,
+div#pageid-content .fulltext-view div.fig .fig-inline {
+   float:none;
+   border: none;
+   width: auto;
+}
+
+div.callout {
+   float:right;
+   display: inline;
+   margin-top: 2em;
+}
+
+div.callout > span {
+   display: none;
+}
+
+div.callout ul.callout-links, div.callout ul.fig-services {
+   display: inline;
+   font-weight: bold;
+}
+
+div.callout .callout-links li a, div.callout .fig-services li a {
+   background: none;
+}
+
+div.callout a.fig-inline-link {
+   display: none;
+}
+
+div.fig-inline > a.fig-inline-link {
+   display: block;
+}
+
+div.callout li a.in-nw-vis {
+   border-left: 1pt solid black;
+   padding-right: 1em;
+}
+
+ol.figonly-list li.figonly-item .fig-caption {
+    background-color: #EEEEEE;
+    border-style: none;
+    border-width: none;
+    padding: none;
+}
+
+.fig-caption span.show-more, .fig-caption span.show-less {
+   color: #0066A4;
+   cursor: pointer;
+   font-weight: bold;
+   width: 100px;
+   float: right;
+}
+
+.fig-caption span.show-less {
+   background: url("/local/img/misc/arrow-blue-up.png") no-repeat scroll 98% 50% transparent;
+}
+
+.fig-caption span.show-more {
+   background: url("/local/img/misc/arrow-blue-down.png") no-repeat scroll 98% 50% transparent;
+   margin-top: -1em;
+}
+
+div.fig-inline div.callout .callout-links li a.in-nw-vis {
+    border-right: 1pt solid #000000;
+    border-left: none;
+    padding-right: 1em;
+}
+
+div#pageid-content .fulltext-view div.fig .fig-inline {
+    background-color: #FFFFFF;
+    font: 0.85em "Lucida Grande","Lucida Sans Unicode",Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    height: auto;
+    margin: 1em 5px 1em 10px;
+    padding: 1em;
+    text-align: center;
+}
+
+div#pageid-content .fulltext-view div.fig .fig-caption {
+    border-style: none;
+    border-width: none;
+    clear: left;
+}

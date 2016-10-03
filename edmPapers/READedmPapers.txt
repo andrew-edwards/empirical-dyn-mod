@@ -1,0 +1,19 @@
+READedmPapers.txt 13/4/16.
+
+When adding papers to be shared, please use the following filename format:
+
+surnameXXkeyword.pdf
+
+surname - surname of lead author (lower case)
+XX - two digits for the year
+keyword - something short that says what the paper is about (lower case, 
+ upper case for start of a second word). 
+
+e.g.
+
+ye15calCofi.pdf - 2015 paper, first author Ye, to do with the Cal Cofi data.  
+
+We may get duplicates (if people pick different keywords) but they will be easy
+ to spot and tidy up.
+
+

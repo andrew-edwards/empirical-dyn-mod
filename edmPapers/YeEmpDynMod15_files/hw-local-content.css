@@ -1,0 +1,148 @@
+.hw-gen-page #main .subsection h3 { 
+    display: inline;
+    font-size: 16px; 
+    padding-top: 5px;
+}
+
+.article div.section { 
+    border-top: 1px solid #BFBFBF; 
+    clear: both; 
+    margin: 0; 
+    padding-top: 15px;
+}
+.article div.section .h-p-wrap { margin: 15px 0; }
+div.section-nav + h2 + div.subsection > :first-child {
+    margin-top: 0;
+}
+
+div.callout .callout-links li a, div.callout .fig-services li a { color: #0066A4; }
+
+.article .contributors p.affil-head { 
+    font-size: 14px;
+}
+.article .contributors .affil-body {
+    font-weight: normal;
+    list-style: none outside none;
+}
+.article .contributors .expand a:link, .article .contributors .expand a:visited {
+  background:url('/local/img/misc/double-arrow-up.gif') no-repeat 19% 50%;
+}
+.article .contributors .expand a:hover, .article .contributors .expand a:active, .article .contributors .expand a:focus {
+  text-decoration:none;
+}
+.article .contributors .expand a.open:link, .article .contributors .expand a.open:visited {
+  background: transparent url('/local/img/misc/double-arrow-down.gif') no-repeat 19% 50%;
+}
+
+#sidebar .subject-headings ul.subject-sub-headings { padding: 0 20px; }
+
+div#pageid-content .article .boxed-text.commentary {
+    border: 1px solid #DDDDDD;
+    color: blue;
+    display: block;
+    font-size: 1.4em;
+    font-weight: bolder;
+    margin: 0.5em 1em;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+
+
+#pageid-content #content-block .article div.executive-summary.significance-box  {
+    text-align:left;
+    border:2px solid #36739F;
+    padding:0 1.5em;
+	margin-top:1em;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+div#pageid-content .article div.executive-summary.significance-box h2 {
+    border: medium none;
+    font-size: 120%;
+    margin: 0 0 20px;
+    padding: 4px 0 0;
+    text-align: left;
+}
+
+#rel-related-article .related-list .cit-section, 
+#rel-related-article .related-list div.cit-metadata ul.cit-auth-list, 
+#pageid-content #related-content .cit .cit-metadata span.cit-section, 
+#pageid-content #related-content .cit .cit-metadata ul.cit-auth-list {
+margin-left: 0;
+padding-left: 0;
+}
+
+#pageid-content #rel-related-article ul.related-list span.cit-title,
+#pageid-content #rel-related-article ul.related-list cite,
+#pageid-content #content-block #rel-related-article ul.related-list div.cit-extra ul.article_key,
+#pageid-content #rel-related-article ul.related-list .cit-extra .cit-views,
+#pageid-content #related-content .cit div.cit-metadata span.cit-title,
+#pageid-content #related-content div.cit div.cit-metadata cite,
+#pageid-content #related-content .article_key li,
+#pageid-content #related-content .cit .cit-extra ul.cit-views  { 
+    margin-left: 0; 
+    padding-left: 0;
+}
+#pageid-content #related-content .cit div.cit-metadata span.cit-title,
+#pageid-content #related-content div.cit div.cit-metadata cite,
+#pageid-content #related-content .article_key li,
+#pageid-content #related-content .cit .cit-extra ul.cit-views  { 
+    margin-left: 5px; 
+    padding-left: 0;
+}
+
+#rel-related-article .related-list li.cit div.cit-metadata cite, 
+#pageid-content #related-content .cit .cit-metadata span.cit-title, 
+#pageid-content #related-content .cit .cit-metadata cite, 
+#pageid-content #related-content .cit .cit-extra ul.cit-views, 
+#related-content .article_key li {
+margin-left: 1.5em;
+padding-left: 0.4em;
+}
+
+div.cit.openaccess {
+background: none;
+}
+
+#related-content ul.article_key .tooltip img {
+padding-left: 0;
+}
+
+
+.table-expansion .table-caption {
+margin-bottom: 1.5em;
+}
+
+div#pageid-content.pagetype-content #content-block .article blockquote {
+border: none;}
+
+#content-block p{ font-weight: normal;}
+
+.extract-view .type-figure .fig-caption {
+display:none;
+}
+
+#pageid-content .referrer-based-search-line {
+font-size: 13px;
+}
+
+div#pageid-content div#semantics-article div#semantics-similar-articles div.cb-contents div#semantics-similar-articles-content div#similar-articles span.cit-title a span.cit-series-title {
+  display:none;
+}
+
+div#pageid-content #content-block .m-site-recommendation {
+display:none;
+}
+div#pageid-content #content-block div.m-site-recommendation ul li {
+    margin-bottom: 10px;
+}
+#pageid-search-results div.container div.tabbedSearch div.col-span ul li {
+    margin-top: 5px;
+}
+
+div#pageid-content #content-block .related-content .cit.openaccess .cit-extra .open-access-note {
+display:none;
+}

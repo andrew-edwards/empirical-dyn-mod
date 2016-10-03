@@ -1,7 +1,7 @@
 # empirical-dyn-mod
-Initial investigations into Empirical Dynamic Modelling and ideas with Carrie and Sue  
+Initial investigations and ideas regarding Empirical Dynamic Modelling
 
-## Ideas and notes stemming from 16/9/16 meeting
+## Ideas and notes stemming from 16/9/16 meeting (Andy Edwards, Carrie Holt, Sue Grant)
 
 Approach looks promising. We don't fully understand it yet, particularly the math. Also need some more testing and examples to be convinced.
 

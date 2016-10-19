@@ -53,7 +53,7 @@ The **simplest option** below is quick, but the **better option** will be much b
 
 ### One time things to get started using git and GitHub
 
-From <a href="http://go.microsoft.com/fwlink/p/?LinkId=310158" target="_blank">my adapted version</a> of Chris Grandin's git workshop tutorial:
+From <a href="https://github.com/andrew-edwards/git-workshop">my adapted version</a> of Chris Grandin's git workshop tutorial:
 
 1. You will need to <a href="https://github.com/" target="_blank">sign up for GitHub</a>, which you've presumably already done as you're viewing this *private* 'repository'.
 

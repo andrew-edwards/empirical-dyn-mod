@@ -61,7 +61,7 @@ From <a href="https://github.com/andrew-edwards/git-workshop">my adapted version
 
 3. Install <a href="http://windows.github.com" target="_blank">GitHub for Windows</a>
 
-4. Go back to Andy's version of the [empirical-dyn-mod repository](https://github.com/andrew-edwards/empirical-dyn-mod) (where you're reading this), make sure you are signed in to GitHub, and **Fork** the project (button on the top right). This will create a copy of the repository on your GitHub site. From the [GitHub glossary](https://help.github.com/articles/github-glossary/#repository): "A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private." 
+4. Go back to Andy's version of the [empirical-dyn-mod repository](https://github.com/andrew-edwards/empirical-dyn-mod) (where you're reading this), make sure you are signed in to GitHub, and **Fork** the project (button on the top right). This will create a copy of the repository on your GitHub site. I think the website you are viewing should then change to **https://github.com/your-github-user-name/empircal-dyn-mod** (but I can't test this). From the [GitHub glossary](https://help.github.com/articles/github-glossary/#repository): "A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private." 
 
 5. Open the GitHub Application. Choose Tools->Options and under *configure git*, fill in your name, the email address you used for signing up to GitHub,
 and change your *default storage directory* to something simple that you will be able to find later. It's good to have all your GitHub based projects in this directory, so something like **c:\github** (best to avoid spaces). Make sure that for
@@ -70,14 +70,14 @@ and change your *default storage directory* to something simple that you will be
 
 ### To get the repository onto your computer
 
-1. Open the Git Shell, (not the GitHub application). The shortcut should be
+1. Open the Git Shell, (not the GitHub application). The shortcut should be at (maybe copy it to somewhere useful):
 **C:\Users\your-computer-user-name\AppData\Local\GitHub\GitHub.appref-ms --open-shell**
 
 2. Note your starting directory, this is where your files will be. It should be the same as the one you entered into the GitHub application in the steps above.
 
 Type the following to clone your repository onto your local machine:
 
-      git clone https://github.com/your-git-user-name/empirical-dyn-mod
+      git clone https://github.com/your-github-user-name/empirical-dyn-mod
 
 Now you have all the files on your computer.
 

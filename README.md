@@ -61,12 +61,24 @@ From <a href="https://github.com/andrew-edwards/git-workshop">my adapted version
 
 3. Install <a href="http://windows.github.com" target="_blank">GitHub for Windows</a>
 
-4. Go back to Andy's version of the [empirical-dyn-mod repository](https://github.com/andrew-edwards/empirical-dyn-mod) (where you're reading this), make sure you are signed in to GitHub, and **Fork** the project (button on the top right). This will create a copy of the repository on your GitHub site. I think the website you are viewing should then change to **https://github.com/your-github-user-name/empircal-dyn-mod** (but I can't test this). From the [GitHub glossary](https://help.github.com/articles/github-glossary/#repository): "A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private." 
+- You will also need the **.gitconfig file** that includes a bunch of aliases that Chris Grandin set up (which make it easier to use some common commands):
+
+ - Go to [https://raw.githubusercontent.com/andrew-edwards/git-workshop/master/.gitconfig](https://raw.githubusercontent.com/andrew-edwards/git-workshop/master/.gitconfig)
+
+ - Right-click anywhere on the main text, Save-As, and save it in your equivalent of **C:\Users\edwardsand\** (where you replace **edwardsand** with the username you use to log in to your computer). I think that's the defaul place, it's where I found it on on my computer.  
+ 
+ - Open **C:\Users\edwardsand\.gitconfig** in a text editor and change the name and email address at the top from Chris's to yours.  
+ 
+
+- Go back to Andy's version of the [empirical-dyn-mod repository](https://github.com/andrew-edwards/empirical-dyn-mod) (where you're reading this), make sure you are signed in to GitHub, and **Fork** the project (button on the top right). This will create a copy of the repository on your GitHub site. I think the website you are viewing should then change to **https://github.com/your-github-user-name/empircal-dyn-mod** (but I can't test this). From the [GitHub glossary](https://help.github.com/articles/github-glossary/#repository): "A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private." 
 
 5. Open the GitHub Application. Choose Tools->Options and under *configure git*, fill in your name, the email address you used for signing up to GitHub,
 and change your *default storage directory* to something simple that you will be able to find later. It's good to have all your GitHub based projects in this directory, so something like **c:\github** (best to avoid spaces). Make sure that for
 *default shell*, *PowerShell* is checked. *pull behavior* should have *use rebase for pulls* checked. Click *Update* and close the application.
 **This is a one-time step and you will not need to do it again unless you want to sign in with a different user name.**
+
+
+
 
 ### To get the repository onto your computer
 

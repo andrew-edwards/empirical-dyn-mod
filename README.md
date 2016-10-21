@@ -130,3 +130,13 @@ Each commit needs a comment describing what you did, such as
 
 Rough for now:
 
+	> git push
+
+This pushes your changes back to your GitHub web page.
+
+	> git fetch **** -- see notes in hake
+
+    > git merge ****
+
+    > git add <filename>
+

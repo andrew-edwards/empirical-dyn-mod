@@ -97,4 +97,36 @@ Now you have all the files on your computer.
 
 ### To change the files and then *push* then back to GitHub
 
-Not done yet....
+Okay, now to get started. It's easier to be shown by someone and for explaining the concepts, but basically I only end up using a few basic commands. These are in the Git Shell. If you are in your **C:/...../github/** directory then you should see a standard DOS prompt, something like:
+
+	C:\user-name\github> 
+
+Then **ls** or **dir** will show you the subdirectories, and you should only have **empirical-dyn-mod** if this is your first use of GitHub.
+
+So change directory 
+
+	> cd empirical-dyn-mod
+
+[note that you can use Tab to complete unique commands]. The prompt now says something like
+
+	C:\user-name\github\empirical-dyn-mod [master]>
+
+with **master** in blue. This last bit tells you that you are in a directory that is being tracked in a GitHub repository (don't worry about why it's called master yet). 
+
+The basic commands that I use are:
+
+	> git s
+
+short for **git status**. This tells you if everything is 'up to date'.
+
+	> git com "Comment here"
+
+short for **git commit**. Once you have made a change to a file then you can 'commit' it to your repository. Git then notes that commit, but in such a way that you can **always go back to earlier versions of the file**. You do not end up with multiple copies of the same file in your directory - Git efficiently keeps track of the **differences** but in hidden folders.
+
+Each commit needs a comment describing what you did, such as
+
+	> git com "Updated README.md with comments about commiting."
+ 
+
+Rough for now:
+

@@ -53,7 +53,9 @@ The **simplest option** below is quick, but the **better option** will be much b
 
 ### One time things to get started using git and GitHub
 
-From <a href="https://github.com/andrew-edwards/git-workshop">my adapted version</a> of Chris Grandin's git workshop tutorial:
+Some of this is from <a href="https://github.com/andrew-edwards/git-workshop">my adapted version</a> of Chris Grandin's git workshop tutorial. Please keep a note of anything that didn't work or could be made clearer - once you get comfortable with using GitHub you'll be able to simply edit these notes and I can accept your changes so that others don't run into the same issues.
+
+**These are one-time steps and will not need to be done again**
 
 1. You will need to <a href="https://github.com/" target="_blank">sign up for GitHub</a>, which you've presumably already done as you're viewing this *private* 'repository'.
 
@@ -70,15 +72,15 @@ From <a href="https://github.com/andrew-edwards/git-workshop">my adapted version
  - Open **C:\Users\edwardsand\.gitconfig** in a text editor and change the name and email address at the top from Chris's to yours.  
  
 
+- The file you're reading is a Markdown file (filename is **README.md**). You can read it in any text editor (as it's just ASCii text), but to get the formatting etc. (and see things in **bold** or *italics*) you’ll also want an editor that knows how to view these. I use Markdown Pad 2 which is easy to use. It’s at  [http://markdownpad.com](http://markdownpad.com/). Just get the free version. 
+
 - Go back to Andy's version of the [empirical-dyn-mod repository](https://github.com/andrew-edwards/empirical-dyn-mod) (where you're reading this), make sure you are signed in to GitHub, and **Fork** the project (button on the top right). This will create a copy of the repository on your GitHub site. I think the website you are viewing should then change to **https://github.com/your-github-user-name/empircal-dyn-mod** (but I can't test this). From the [GitHub glossary](https://help.github.com/articles/github-glossary/#repository): "A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private." 
 
 5. Open the GitHub Application. Choose Tools->Options and under *configure git*, fill in your name, the email address you used for signing up to GitHub,
-and change your *default storage directory* to something simple that you will be able to find later. It's good to have all your GitHub based projects in this directory, so something like **c:\github** (best to avoid spaces). Make sure that for
-*default shell*, *PowerShell* is checked. *pull behavior* should have *use rebase for pulls* checked. Click *Update* and close the application.
-**This is a one-time step and you will not need to do it again unless you want to sign in with a different user name.**
+and change your *default storage directory* to something simple that you will be able to find later. 
 
-
-
+ - It's good to have all your GitHub based projects in this directory, so something like **c:\github** or anything you like, but ***AVOID USING SPACES IN FILENAMES AND DIRECTORY NAMES*** [this is generally good practice but will avoid potential problems; make sure you add the new directory name to your back up software if you want to back your files up as normal]. 
+ - Make sure that for *default shell*, *PowerShell* is checked. *pull behavior* should have *use rebase for pulls* checked. Click *Update* and close the application.
 
 ### To get the repository onto your computer
 

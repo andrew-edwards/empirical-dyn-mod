@@ -140,15 +140,44 @@ Next,
 
 	git add filename
 
-tells git to keep track of changes to that filename in this repository. To ignore a file (or a type of file), you add that file to the **.gitignore** file for that repository. Don't worry about that for now.
+tells git to keep track of changes to that filename in this repository (so you do this when you create a new file). To ignore a file, you add that file to the **.gitignore** file for that repository. Don't worry about that for now.
 
 	git push
 
-pushes your changes back to the version of your repository that is on your GitHub web page.
+pushes your commits back to the version of your repository that is on your GitHub web page.
 
-	> git fetch **** -- see notes in hake
+###To collaborate with others
 
-    > git merge ****
+Now, the true value of git and GitHub is in collaborating on code or documents. Having forked my repository and then cloned it your computer you have a copy of my files. But what about keeping up-to-date with what I've been doing, and then doing some work yourself that I can then merge into my files? We may not use this full functionality for this project, but in case, here is what we do.
 
-    > git add <filename>
+Look at the Network Graph for your repository: go to your GitHub site for this repository, and click Graphs and then Network. Your (GitHub) name should be on the left, with a series of nodes (each representing a commit) to the right in the graph. If you see someone else's name below yours, it means that they have pushed something to their repository that you don't yet have. You can hover over each node to see the commit message associated with each commit. 
 
+If you cannot see anyone else's name then no-one is ahead of you, and you are up to date (this is good!). 
+
+So, to incorporate my (Andy's) latest commits, you need to (just once) do: 
+
+       git remote add aedwards https://github.com/andrew-edwards/empirical-dyn-mod
+
+You can use anything you like instead of 'aedwards', but we've found it consistent to use this format for when we are involving multiple people. 
+
+Then, to fetch (from GitHub) the latest version of mine:
+
+	git fetch aedwards
+
+I think you can do 
+
+	git diff aedwards/master
+
+which will show the differences between our repositories, but it's not super clear. [I now use difftool I think which is likely better, but I haven't done merging for a while].
+
+Then to merge my version of the repository with your own repository, do
+
+	git merge aedwards/master
+
+If we have no **conflicts** then the merge will work fine. A conflict is where we have both changed a file in the same place [line number] since the repositories diverged from each other. Then **git com "..."** (though a merge may automatically do one?) and **git push** as usual. Then look at the Network Graph page again (refresh it), and it should look different - the repository you merged from should not show up, since you are now up to date with it.
+
+When there is a conflict you will get a message. Then open the relevant file in a text editor, and it has <<<<<<   for the start of a conflicting part, and ========= at the end, so manually fix it. Basically you decide which part of the conflicting code you want to keep.
+
+Then **git add <filename>** to confirm that's the one you want (that step is not completely obvious), then **git com "..."** as usual. See <https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/>
+
+Generally we try and work on different files so that there are no conflicts when we merge.

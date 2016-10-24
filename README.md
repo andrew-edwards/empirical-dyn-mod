@@ -97,7 +97,7 @@ Now you have all the files on your computer.
 
 ### To change the files and then *push* then back to GitHub
 
-Okay, now to get started. It's easier to be shown by someone and for explaining the concepts, but basically I only end up using a few basic commands. These are in the Git Shell. If you are in your **C:/...../github/** directory then you should see a standard DOS prompt, something like:
+Okay, now to get started. It's easier to be shown by someone and for explaining the concepts, but basically I only end up using a few basic commands. These are typed in the Git Shell. If you are in your **C:/...../github/** directory then you should see a standard DOS prompt, something like:
 
 	C:\user-name\github> 
 
@@ -113,26 +113,38 @@ So change directory
 
 with **master** in blue. This last bit tells you that you are in a directory that is being tracked in a GitHub repository (don't worry about why it's called master yet). 
 
-The basic commands that I use are:
+### The basic commands that I use are:
 
-	> git s
+      git s                             <View status of the repository>
+      git com "MESSAGE"                 <Commit changes with message>
+      git add filename                  <Add 'filename' (including path) to the list of files being tracked by git>
+	  git push							<Push your changes to GitHub>
+	  git fetch ****					<fetch changes that someone else has made>
+	  git merge							<merge the fetched changes with your local repository>
 
-short for **git status**. This tells you if everything is 'up to date'.
+In more detail:
 
-	> git com "Comment here"
+	git s
 
-short for **git commit**. Once you have made a change to a file then you can 'commit' it to your repository. Git then notes that commit, but in such a way that you can **always go back to earlier versions of the file**. You do not end up with multiple copies of the same file in your directory - Git efficiently keeps track of the **differences** but in hidden folders.
+is short for **git status**, and tells you if everything is 'up to date'.
+
+	git com "Comment here"
+
+is short for **git commit**. Once you have made a change to a file then you can 'commit' it to your repository. Git then notes that commit, but in such a way that you can **always go back to earlier versions of the file**. You do not end up with multiple copies of the same file in your directory - Git efficiently keeps track of the **differences** but in hidden folders.
 
 Each commit needs a comment describing what you did, such as
 
-	> git com "Updated README.md with comments about commiting."
+	git com "Updated README.md with comments about commiting."
  
+Next,
 
-Rough for now:
+	git add filename
 
-	> git push
+tells git to keep track of changes to that filename in this repository. To ignore a file (or a type of file), you add that file to the **.gitignore** file for that repository. Don't worry about that for now.
 
-This pushes your changes back to your GitHub web page.
+	git push
+
+pushes your changes back to the version of your repository that is on your GitHub web page.
 
 	> git fetch **** -- see notes in hake
 

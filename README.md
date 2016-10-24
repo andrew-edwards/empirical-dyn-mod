@@ -45,7 +45,7 @@ macDonald12sockeye.pdf - Res. Doc. has the performance metrics. Sue thinks that 
 
 ## Instructions for new users
 
-The **simplest option** below is quick, but the **better option** will be much better for collaborating in the workshop.
+The **simplest option** below is quick to do a one-time download of the files and papers that I've put together. But the **better option** will be much better for collaborating in the workshop.
 
 **Simplest option** (but does not facilitate collaboration or updating of files). To do a one-time download of all the current files from the GitHub site, click the 'Clone or Download' button (near the top on the right) and select 'Download ZIP'. Make a note of the 'Latest commit' number in case you have any questions for me. 
 
@@ -105,7 +105,7 @@ Then **ls** or **dir** will show you the subdirectories, and you should only hav
 
 So change directory 
 
-	> cd empirical-dyn-mod
+	cd empirical-dyn-mod
 
 [note that you can use Tab to complete unique commands]. The prompt now says something like
 
@@ -181,3 +181,11 @@ When there is a conflict you will get a message. Then open the relevant file in 
 Then **git add <filename>** to confirm that's the one you want (that step is not completely obvious), then **git com "..."** as usual. See <https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/>
 
 Generally we try and work on different files so that there are no conflicts when we merge.
+
+I've purposefully glossed over a few technical things to get you started, and haven't fully explained why things are done. When I started our I tried to read up about GitHub a bit, but it can be very technically described (requiring a strong computer science background) so not overly helpful, with lots of references to other 'version control systems' that you never used in the first place.
+
+A readable introduction to the general ideas of 'version control' is the manuscript <a href="https://arxiv.org/abs/1609.00037">Good Enough Practices in Scientific Computing</a> (thanks to Carrie for passing this on).
+
+###Simple example
+
+Maybe worth giving a simple example....

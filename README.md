@@ -140,7 +140,11 @@ Next,
 
 	git add filename
 
-tells git to keep track of changes to that filename in this repository (so you do this when you create a new file). To ignore a file, you add that file to the **.gitignore** file for that repository. Don't worry about that for now.
+tells git to keep track of changes to that filename in this repository (so you do this when you create a new file). You do not need to change directory in the git shell once you're in the base directory for a repository, but you just need to include the relative path in 'filename' - i.e. something like
+
+	git add edmPapers/smith06salmonEDM.pdf
+
+To ignore a file, you add that file to the **.gitignore** file for that repository. Don't worry about that for now.
 
 	git push
 

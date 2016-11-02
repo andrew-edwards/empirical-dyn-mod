@@ -193,3 +193,4 @@ A readable introduction to the general ideas of 'version control' is the manuscr
 ###Simple example
 
 Maybe worth giving a simple example....
+thanks!

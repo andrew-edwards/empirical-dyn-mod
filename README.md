@@ -3,7 +3,7 @@ Initial investigations and ideas regarding Empirical Dynamic Modelling
 
 [New users see the end of this file to get started]
 
-## Folders
+## Summary of folders (see below for details)
 
 **edmPapers/** - collection of papers.
 
@@ -68,6 +68,11 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 ###Summary of papers
 
 It could be useful to write something up here about the more useful papers. Or maybe have a separate file for that in **edmPapers**?
+
+##codeYe15reproduce/
+
+Trying to reproduce the results from **ye15empDynMod.pdf**. Have copied the Supp Info files from **edmPapers/yeEmpDynMod15Data/** and resaved them in the suggested formats (*.xls to *.csv). 
+
 
 ## Instructions for new users
 

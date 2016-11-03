@@ -5,7 +5,9 @@ Initial investigations and ideas regarding Empirical Dynamic Modelling
 
 ## Folders
 
-**edmPapers/** - collection of papers. Please see 
+**edmPapers/** - collection of papers.
+
+**code/ye15reproduce** - trying to reproduce results from Ye et al. 2015 PNAS paper.
 
 ## Ideas and notes stemming from 16/9/16 meeting (Andy Edwards, Carrie Holt, Sue Grant)
 
@@ -47,7 +49,7 @@ macDonald12sockeye.pdf - Res. Doc. has the performance metrics. Sue thinks that 
 
 ##edmPapers/
 
-Folder contains .pdf's of papers to be shared. Plus some movies and Supplementary Info from some papers.
+Folder contains .pdf's of papers to be shared. Plus some movies and Supplementary Info from some papers (including Ye et al. 2015 paper, but the code for that is resaved and usable in **code/ye15reproduce**).
 
 When adding papers to be shared, please use the following filename format:
 

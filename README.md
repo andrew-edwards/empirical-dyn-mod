@@ -3,6 +3,10 @@ Initial investigations and ideas regarding Empirical Dynamic Modelling
 
 [New users see the end of this file to get started]
 
+## Folders
+
+**edmPapers/** - collection of papers. Please see 
+
 ## Ideas and notes stemming from 16/9/16 meeting (Andy Edwards, Carrie Holt, Sue Grant)
 
 Emprical Dynamical Modelling approach looks promising. We don't fully understand it yet, particularly the math. Also need some more testing and examples to be convinced.
@@ -41,7 +45,27 @@ macDonald12sockeye.pdf - Res. Doc. has the performance metrics. Sue thinks that 
 3. Have code running for one theoretical model.
 4. Have code set up for multispecies time series, if anyone is bringing one to the workshop. 
 
+##edmPapers/
 
+Folder contains .pdf's of papers to be shared. Plus some movies and Supplementary Info from some papers.
+
+When adding papers to be shared, please use the following filename format:
+
+**surnameXXkeyword.pdf** where
+
+**surname** = surname of lead author (lower case)
+
+**XX** = two digits for the year
+
+**keyword** = something short that says what the paper is about (lower case, upper case for start of a second word). 
+
+For example, **ye15calCofi.pdf** - 2015 paper, first author Ye, to do with the Cal Cofi data.  
+
+So it will be easy to find papers, and spot if two people upload the same one (and just choose different keywords). Thanks.
+
+###Summary of papers
+
+It could be useful to write something up here about the more useful papers. Or maybe have a separate file for that in **edmPapers**?
 
 ## Instructions for new users
 

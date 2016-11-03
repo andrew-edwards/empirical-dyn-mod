@@ -5,9 +5,9 @@ Initial investigations and ideas regarding Empirical Dynamic Modelling
 
 ## Ideas and notes stemming from 16/9/16 meeting (Andy Edwards, Carrie Holt, Sue Grant)
 
-Approach looks promising. We don't fully understand it yet, particularly the math. Also need some more testing and examples to be convinced.
+Emprical Dynamical Modelling approach looks promising. We don't fully understand it yet, particularly the math. Also need some more testing and examples to be convinced.
 
-Will be something worth pursuing at the Ecosystem Approach workshop, and we could have a breakout group to work on it for three days (Rowan is keen to be a part).
+Will be something worth pursuing at the Ecosystem Approach workshop (21-25th November 2016). We are having a breakout group to work on it for three days, consisting of (at the minimum) Andy, Carrie, Rowan Haigh and Dave Campbell (SFU statistics prof) for a day.
 
 There's a full CSAS meeting in May/June 2017 of a review of the modelling approaches for (Fraser River?) Sockeye Salmon. It could be good to present something there, though timewise I expect we may not be able to get too much done.
 
@@ -27,7 +27,7 @@ macDonald12sockeye.pdf - Res. Doc. has the performance metrics. Sue thinks that 
 1. Get the Hastings and Powell (1991) model working to reproduce what they did. There is recent code on the rEDM GitHub site.
 3. If that is doable then maybe apply to Edwards and Brindley (1996 or 1999) NPZ (nutrient-phytoplankton-zooplankton) model with forcing and noise. This would be good because the dynamical behaviour (without noise) is somewhat understood, as is effect of adding a detritus compartment and changing zooplankton mortality. Can look at areas of parameter space that, without forcing or stochasticity, have a chaotic attractor or just limit cycles (oscillations) or just steady states.   
 2. Understand the time downsampling issue. 
-4. Could ask Hao what they're doing with the multiview embedding (MVE) and Fraser River Sodckeye.
+4. Could ask Hao what they're doing with the multiview embedding (MVE) and Fraser River Sockeye.
 5. Just play with the code to understand it more.
 6. Ask Alida and others what kind of data sets they have.
 7. Better understand how the methods can be used for forecasting. 
@@ -45,19 +45,27 @@ macDonald12sockeye.pdf - Res. Doc. has the performance metrics. Sue thinks that 
 
 ## Instructions for new users
 
-The **simplest option** below is quick to do a one-time download of the files and papers that I've put together. But the **better option** will be much better for collaborating in the workshop.
+The **simplest option** below is quick to do a one-time download of the files and papers that I've put together. The **better option** will be much better for collaborating in the workshop, but we don't want to get hung up with teaching people GitHub.
+
+We're using this to share papers and code with each other (sharing papers isn't really the purpose of GitHub, but it's an easy way for us to share them - sharing code is the real purpose).
 
 **Simplest option** (but does not facilitate collaboration or updating of files). To do a one-time download of all the current files from the GitHub site, click the 'Clone or Download' button (near the top on the right) and select 'Download ZIP'. Make a note of the 'Latest commit' number in case you have any questions for me. 
 
-**Better option** (preferred) to properly use GitHub, keep up with updates to the files by others, and allow you to contribute (adding papers and code). You need to do the following:
+**Better option** (preferred) to properly use GitHub, keep up with updates to the files by others, and allow you to contribute (adding papers and code). 
+
+[If you already use GitHub then just **fork** and **clone** this repository, and then to merge work we will use **git fetch** and **git merge** as outlined below - we won't do pull requests since they get confusing].
+
+If you are new to GitHub you need to do the following:
 
 ### One time things to get started using git and GitHub
 
 Some of this is from <a href="https://github.com/andrew-edwards/git-workshop">my adapted version</a> of Chris Grandin's git workshop tutorial. Please keep a note of anything that didn't work or could be made clearer - once you get comfortable with using GitHub you'll be able to simply edit these notes and I can accept your changes so that others don't run into the same issues.
 
+Basically, **git** works on your computer and saves all versions of documents as you continually work on them ('version control'). **GitHUB** is a copy of everything on a website that allows users to share code with each other.
+
 **These are one-time steps and will not need to be done again**
 
-1. You will need to <a href="https://github.com/" target="_blank">sign up for GitHub</a>, which you've presumably already done as you're viewing this *private* 'repository'.
+1. You will need to <a href="https://github.com/" target="_blank">sign up for GitHub</a>, which you've presumably already done as you're viewing this *private* 'repository' (only invited people can see it).
 
 2. GitHub *requires* Microsoft .NET 4.5.1 as of February 2014. If you have a .NET version less than 4.5 ([Check version](https://github.com/downloads/shanselman/SmallestDotNet/CheckForDotNet45.exe "Which .NET version is on my machine?")), then upgrade it: <a href="http://go.microsoft.com/fwlink/p/?LinkId=310158" target="_blank">Microsoft .NET 4.5.1</a>.
 
@@ -93,7 +101,7 @@ Type the following to clone your repository onto your local machine:
 
       git clone https://github.com/your-github-user-name/empirical-dyn-mod
 
-Now you have all the files on your computer.
+This may take a while depending on your network connection, mainly because there are many .pdf's of papers included. Now you have all the files on your computer.
 
 ### To change the files and then *push* then back to GitHub
 
@@ -193,4 +201,3 @@ A readable introduction to the general ideas of 'version control' is the manuscr
 ###Simple example
 
 Maybe worth giving a simple example....
-thanks!

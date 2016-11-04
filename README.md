@@ -98,6 +98,8 @@ Table 1 - same error.
 
 Most Supp Info figures can't get produced either
 
+Note that (at least some of) the data are now actually included in **rEDM**.
+
 ###TO DO
 
 Understand the three Fig 1 panels, and how they are produced. 

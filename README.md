@@ -87,11 +87,17 @@ Fig. 2 (think 2 and 3 are switched in paper) - code doesn't plot
 
 Fig. 4 - no 'stats_combined.RDS' file.
 
+Table 1 - same error.
 
+Most Supp Info figures can't get produced either
 
+###TO DO
 
+Understand the three Fig 1 panels, and how they are produced. 
 
+Tricky - there's not a lot of comments in the code. Maybe look at rEDM package first?
 
+<https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html> is a vignette for the package. 
 
 ## Instructions for new users
 

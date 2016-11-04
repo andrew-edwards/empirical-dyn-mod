@@ -2,6 +2,9 @@
 #  So if you do not want to share a file then list it here.
 
 code/ye15reproduce/RMarkdownIntro.Rmd
+edmPapers/rEDMvignette.html
+edmPapers/rEDMvignette_files/*
+
 *~
 *.txt
 *.RData

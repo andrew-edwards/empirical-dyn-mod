@@ -69,9 +69,14 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 
 **ye15empDynMod.pdf** is the one that uses Sockeye Salmon data and that got us interested in this.
 
-**sugihara90nonlinForecast.pdf** - early paper with simple simulation models and three real data sets. Worth (mostly) understanding as forms the basis for later work.
+**sugihara90nonlinForecast.pdf** - early paper with simple simulation models and three real data sets. Definitely worth (mostly) understanding as forms the basis for later work, and I think examples are in the **rEDM** package.
 
-##codeYe15reproduce/
+##code/rEDMtutorial/
+
+**rEDMtutorial.r** - Code to understand **rEDM**. Copying and adapting from useful vignette at <https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html>
+
+
+##code/codeYe15reproduce/
 
 Trying to reproduce the results from **ye15empDynMod.pdf**. Have copied the Supp Info files from **edmPapers/yeEmpDynMod15Data/** and resaved them in the suggested formats (*.xls to *.csv), with the code saved as **ye15origCode.r**.
 
@@ -99,9 +104,9 @@ Understand the three Fig 1 panels, and how they are produced.
 
 Tricky - there's not a lot of comments in the code. Maybe look at rEDM package first?
 
-<https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html> is a vignette for the package. 
+<https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html> is a vignette for the package.
 
-## Instructions for new users
+## Instructions for new git users
 
 The **simplest option** below is quick to do a one-time download of the files and papers that I've put together. The **better option** will be much better for collaborating in the workshop, but we don't want to get hung up with teaching people GitHub.
 

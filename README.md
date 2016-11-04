@@ -65,9 +65,11 @@ For example, **ye15calCofi.pdf** - 2015 paper, first author Ye, to do with the C
 
 So it will be easy to find papers, and spot if two people upload the same one (and just choose different keywords). Thanks.
 
-###Summary of papers
+###Summary of important papers (not exhaustive)
 
-It could be useful to write something up here about the more useful papers. Or maybe have a separate file for that in **edmPapers**?
+**ye15empDynMod.pdf** is the one that uses Sockeye Salmon data and that got us interested in this.
+
+**sugihara90nonlinForecast.pdf** - early paper with simple simulation models and three real data sets. Worth (mostly) understanding as forms the basis for later work.
 
 ##codeYe15reproduce/
 

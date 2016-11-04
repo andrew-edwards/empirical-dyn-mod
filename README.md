@@ -71,7 +71,26 @@ It could be useful to write something up here about the more useful papers. Or m
 
 ##codeYe15reproduce/
 
-Trying to reproduce the results from **ye15empDynMod.pdf**. Have copied the Supp Info files from **edmPapers/yeEmpDynMod15Data/** and resaved them in the suggested formats (*.xls to *.csv). 
+Trying to reproduce the results from **ye15empDynMod.pdf**. Have copied the Supp Info files from **edmPapers/yeEmpDynMod15Data/** and resaved them in the suggested formats (*.xls to *.csv), with the code saved as **ye15origCode.r**.
+
+The code saves a number of **.RData**, **.RDS** files (like **.RData** but just for single objects) and **.txt** files which we don't need on GitHub (they should be created on individual's machines). So adding those to **.gitignore**.
+
+**ye15origCode.r** - this has a lot of functions defined that are then run at the end. Andy has it working (running the functions then running line-by-line at the end since it will overwrite figures), and it yields:
+
+Fig. 1A - reproduced
+
+Fig. 2B - reproduced (though SST axis goes from -2ish to 2 instead of 7 to 9degC, presumably still normalised)
+
+Fig. 1C - reproduced. Useful since you can rotate it on the screen, which highlights the lack of low-SST high-spawner values. 
+
+Fig. 2 (think 2 and 3 are switched in paper) - code doesn't plot
+
+Fig. 4 - no 'stats_combined.RDS' file.
+
+
+
+
+
 
 
 ## Instructions for new users

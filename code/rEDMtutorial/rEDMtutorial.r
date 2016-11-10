@@ -8,6 +8,8 @@
 
 rm(list=ls())
 require(rEDM)
+require(fNonlinear)         # For the function tentSim(), to compare to my
+                            #  tentFun which doesn't seem to work properly.
 data(tentmap_del)
 
 ts = tentmap_del            # ts is the time series of data (not same as
@@ -77,3 +79,10 @@ plot(res3)
 plot(res3[-length(res3)], res3[-1])  # fills in except the low end, not to 0.
 delta3 = res3[-1] - res3[-length(res3)]
 plot(delta3)       
+
+# Okay, try tentSim() function from fNonlinear package
+res4 = tentSim(n=100, n.skip=0, start=0.4)
+plot(res4)   # res4 is a time series so it draws lines
+
+res5 = tentSim(n=100, n.skip=0, start=0.123) #, doplot=TRUE)
+plot(res5)   # doesn't crash

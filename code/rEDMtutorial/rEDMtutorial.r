@@ -57,7 +57,8 @@ tentFun = function(x.init, mu, n)
       x[1] = x.init
       for(t in 1:(n-1))
           {
-            x[t+1] = mu * min( x[t], 1-x[t] )
+            # x[t+1] = mu * min( x[t], 1-x[t] )    # seems to give same as:
+            x[t+1] = mu * x[t] * (x[t] < 0.5) + mu * (1 - x[t]) * (x[t] >= 0.5)
           }
       return(x)
   }
@@ -69,4 +70,10 @@ plot(res1)           # Very curious behaviour, where numerical inaccuracies
                      #  but end up with values that end up at 0.
 res2 = tentFun(0.123, 2, 100)
 plot(res2)
-plot(res2[-length(res2)], res2[-1])
+plot(res2[-length(res2)], res2[-1])  # Also heads to 0.
+
+res3 = tentFun(0.123, 1.8, 1000)
+plot(res3)
+plot(res3[-length(res3)], res3[-1])  # fills in except the low end, not to 0.
+delta3 = res3[-1] - res3[-length(res3)]
+plot(delta3)       

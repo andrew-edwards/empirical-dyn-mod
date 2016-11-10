@@ -25,13 +25,13 @@ plot(simplex_output$E, simplex_output$rho, type = "l",
 
 # ts does not seem to be same as in Sugihara & May 1990:
 plot(ts)
-x = cumsum(ts)
-plot(x)
-hist(ts)
-hist(x)
-# need to understand what mu=2 means in tent_map defn in rEDMmanual.pdf. Or
-#  just generate same tentmap as in S&M 90. Easy enough, and be helpful to
-#  reproduce their results.
+delta = ts[-1] - ts[length(ts)]   
+plot(delta)         # has a different range to their Fig. 1a.
+hist(delta)
+
+# Need to understand what mu=2 means in tent_map defn in rEDMmanual.pdf. Or
+#  just generate same tentmap as in S&M 90. Should be easy enough, and be
+#  helpful to reproduce their results.
 
 # Tent map seems to be
 tentFun = function(x.init, mu, n)
@@ -39,14 +39,14 @@ tentFun = function(x.init, mu, n)
   # Computes n iterations of tent map, for which
   #  x_{t+1} = mu * min(x_t, 1-x_t)
   #   or equivalently
-  #  x_{t+1} = mu/2 * x_t,       for  x_t < 0.5
-  #          = mu/2 * (1 - x_t), for x_t >= 0.5
+  #  x_{t+1} = mu * x_t,       for x_t < 0.5
+  #          = mu * (1 - x_t), for x_t >= 0.5
   #
-  #  where 0 <= x_t <= 1.    
+  #  where 0 <= x_t <= 1.
   # Args:
-  #   x.init: initial value of x
+  #   x.init: initial value of x, with 0 <= x <= 1
   #   mu: parameter defining steepness of tent, leading to rich dynamical
-  #        behaviour
+  #        behaviour (see Wikipedia page for a summary)
   #   n: length of returned vector consisting of n-1 iterations
   #
   # Returns:
@@ -57,7 +57,16 @@ tentFun = function(x.init, mu, n)
       x[1] = x.init
       for(t in 1:(n-1))
           {
-            x[t+1] = mu * min(c(x[t], 1-x[t]))
+            x[t+1] = mu * min( x[t], 1-x[t] )
           }
       return(x)
   }
+
+
+res1 = tentFun(0.4, 2, 100)
+plot(res1)           # Very curious behaviour, where numerical inaccuracies
+                     #  creep in, because should just get 0.4, 0.8, 0.4,0.8,...
+                     #  but end up with values that end up at 0.
+res2 = tentFun(0.123, 2, 100)
+plot(res2)
+plot(res2[-length(res2)], res2[-1])

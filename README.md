@@ -7,7 +7,9 @@ Initial investigations and ideas regarding Empirical Dynamic Modelling
 
 **edmPapers/** - collection of papers.
 
-**code/ye15reproduce** - trying to reproduce results from Ye et al. 2015 PNAS paper.
+**code/ye15reproduce/** - trying to reproduce results from Ye et al. 2015 PNAS paper.
+
+**code/rEDMtutorial/** - putting together code to understand EDM.
 
 ## Ideas and notes stemming from 16/9/16 meeting (Andy Edwards, Carrie Holt, Sue Grant)
 

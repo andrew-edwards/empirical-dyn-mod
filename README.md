@@ -73,6 +73,8 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 
 **sugihara90nonlinForecast.pdf** - early paper with simple simulation models and three real data sets. Definitely worth (mostly) understanding as forms the basis for later work, and I think examples are in the **rEDM** package.
 
+**glaser14fisheriesEDM.pdf** - application to US fisheries data. 
+
 ##code/rEDMtutorial/
 
 **rEDMtutorial.r** - Code to understand **rEDM**. Copying and adapting from useful vignette at <https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html>

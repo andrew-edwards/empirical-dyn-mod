@@ -51,7 +51,14 @@ tentFun = function(x.init, mu, n, eps = .Machine$double.eps)
   #   mu: parameter defining steepness of tent, leading to rich dynamical
   #        behaviour (see Wikipedia page for a summary)
   #   n: length of returned vector consisting of n-1 iterations
-  #   eps: ** to add to ***
+  #   eps: machine precision amount of noise to add to each iteration only
+  #        when mu = 2, because of issues with binary storage of numbers.
+  #        Hao Ye said "What I did for my simulated data was inject
+  #        process noise at each time step equal to the machine precision
+  #       (so that the least significant bit is random)". I don't fully
+  #       understand (and still seem to get cyclic behaviour with mu=2),
+  #       and have realised it's best just to use mu=1.99 instead.    
+  #        
   # Returns:
   #   vector of length n of iterated values
   #
@@ -71,7 +78,15 @@ tentFun = function(x.init, mu, n, eps = .Machine$double.eps)
 res1 = tentFun(0.4, 2, 100)
 plot(res1)           # Very curious behaviour, where numerical inaccuracies
                      #  creep in, because should just get 0.4, 0.8, 0.4,0.8,...
-                     #  but end up with values that end up at 0.
+                     #  but end up with values that end up at 0. With eps
+                     #  in the function it does wander away to 0.6 but then
+                     #  gets back. 
+
+res1a = tentFun(0.4, 1.99, 1000)
+plot(res1a)
+plot(res1a[-length(res1a)], res1a[-1])  # Fills out nicely. Seems a better
+                                        #  option than adding epsilon.
+
 res2 = tentFun(0.123, 2, 1000)
 plot(res2)
 plot(res2[-length(res2)], res2[-1])  # Also heads to 0.

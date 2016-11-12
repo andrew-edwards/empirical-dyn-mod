@@ -11,5 +11,6 @@ edmPapers/rEDMvignette_files/*
 *.RDS
 
 *_*.txt 
-
 # though may need to be more specific if we have read...txt files.
+
+.Rhistory

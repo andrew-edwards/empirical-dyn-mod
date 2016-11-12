@@ -79,6 +79,7 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 
 **rEDMtutorial.r** - Code to understand **rEDM**. Copying and adapting from useful vignette at <https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html>
 
+**rEDMplay.r** - Bits of code to play with to help create **rEDMtutorial.r**. Do not try and run this, just use **rEDMtutorial.r**. 
 
 ##code/codeYe15reproduce/
 

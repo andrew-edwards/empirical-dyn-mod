@@ -1,4 +1,6 @@
-# rEDMtutorial.r. Trying to understand EDM. Using code from the vignette
+# rEDMplay.r. Playing with code to then make a tutorial. Do not try and run
+#  this (the notes will not all be accurate), but instead use rEDMtutorial.r.
+#  Trying to understand EDM. Using code from the vignette
 #  at https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html
 #  I will just write this as R code to be run one line at a time to help
 #  understanding. It looks like the vignette does not directly reproduce

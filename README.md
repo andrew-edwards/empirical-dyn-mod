@@ -77,14 +77,11 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 
 ##code/rEDMtutorial/
 
-**rEDM_tutorial.html** - vignette for **rEDM**, copied from **.../R/R-3.2.3/library/rEDM/doc/rEDM_tutorial.html**. This is dated 9th March 2016, whereas the latest version online at 
-<https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html> is dated 22nd October 2016. So there is likely a later version of **rEDM** available than i have - worth getting now. **Have installed - need to update following files:**
+**rEDM_ tutorial.html**  vignette for **rEDM**, copied from **...../R/R-3.2.3/library/rEDM/doc/rEDM_tutorial.html**. This is dated 22nd October 2016, and is from installing version 0.5.3 of **rEDM** (Andy just updated, 12th November 2016). Figures only seem to show up in Chrome and not Explorer. Vignette is also online at <https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html> (may work for Explorer?).
 
-**rEDM_tutorial.r** - the R code that goes with the tutorial in **rEDM_tutorial.html**
+**rEDM_ tutorial.r** - the R code that goes with the tutorial in **rEDM_tutorial.html**
 
-**rEDMtutorial.r** - my code to understand **rEDM**. Copying and adapting from us
-
-**rEDMplay.r** - Bits of code to play with to help create **rEDMtutorial.r**. Do not try and run this, just use **rEDMtutorial.r**. 
+**rEDMplay.r** - Bits of code to play with to help understand **rEDM** and try and create some examples, although now testing **rEDM_tutorial.r**. 
 
 ##code/codeYe15reproduce/
 
@@ -117,6 +114,13 @@ Understand the three Fig 1 panels, and how they are produced.
 Tricky - there's not a lot of comments in the code. Maybe look at rEDM package first?
 
 <https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html> is a vignette for the package.
+
+##
+
+##
+
+##
+
 
 ## Instructions for new git users
 

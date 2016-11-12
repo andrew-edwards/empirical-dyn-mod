@@ -77,7 +77,12 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 
 ##code/rEDMtutorial/
 
-**rEDMtutorial.r** - Code to understand **rEDM**. Copying and adapting from useful vignette at <https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html>
+**rEDM_tutorial.html** - vignette for **rEDM**, copied from **.../R/R-3.2.3/library/rEDM/doc/rEDM_tutorial.html**. This is dated 9th March 2016, whereas the latest version online at 
+<https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html> is dated 22nd October 2016. So there is likely a later version of **rEDM** available than i have - worth getting now.
+
+**rEDM_tutorial.r** - the R code that goes with the tutorial in **rEDM_tutorial.html**
+
+**rEDMtutorial.r** - my code to understand **rEDM**. Copying and adapting from us
 
 **rEDMplay.r** - Bits of code to play with to help create **rEDMtutorial.r**. Do not try and run this, just use **rEDMtutorial.r**. 
 

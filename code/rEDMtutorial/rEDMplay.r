@@ -16,6 +16,9 @@ data(tentmap_del)
 
 ts = tentmap_del            # ts is the time series of data (not same as
                             #  Sugihara & May 1990 since range is different)
+                            # These are already the first differences
+                            #  (from vignette).
+
 lib = c(1, 100)             # the library to construct the model
 pred = c(201, 500)          # the prediction set to test the model
 
@@ -30,9 +33,9 @@ plot(simplex_output$E, simplex_output$rho, type = "o",
 
 # ts does not seem to be same as in Sugihara & May 1990:
 plot(ts)
-delta = ts[-1] - ts[length(ts)]   
-plot(delta)         # has a different range to their Fig. 1a.
-hist(delta)
+#delta = ts[-1] - ts[-length(ts)]     # data are already first differences
+#plot(delta)         # has a different range to their Fig. 1a.
+#hist(delta)
 
 # Need to understand what mu=2 means in tent_map defn in rEDMmanual.pdf. Or
 #  just generate same tentmap as in S&M 90. Should be easy enough, and be
@@ -93,11 +96,12 @@ res2 = tentFun(0.123, 2, 1000)
 plot(res2)
 plot(res2[-length(res2)], res2[-1])  # Also heads to 0.
 
-res3 = tentFun(0.123, 1.8, 1000)
+# Use this:
+res3 = tentFun(0.123, 1.999, 1000)
 plot(res3)
-plot(res3[-length(res3)], res3[-1])  # fills in except the low end, not to 0.
+plot(res3[-length(res3)], res3[-1])  # fills in except very low end, not to 0.
 delta3 = res3[-1] - res3[-length(res3)]
-plot(delta3)       
+plot(delta3, type="l", ylim=c(-1,1)) # Actually looks like Fig 1a.
 
 # Okay, try tentSim() function from fNonlinear package
 res4 = tentSim(n=100, n.skip=0, start=0.4)
@@ -117,11 +121,11 @@ recurrencePlot(res6, m=1, d=1, eps=0.001, end.time=1000) # not clear what that i
 
 # Try alternative initial conditions, can be random
 set.seed(42)
-res7 = tentSim(n=1001, n.skip=0) 
+res7 = res3  # tentSim(n=1001, n.skip=0) 
 plot(res7)
 plot(res7[-length(res7)], res7[-1])
 delta7 = res7[-1] - res7[-length(res7)]
-plot(delta7, type="l", ylim=c(-1, 1)) # These don't seem to look like Fig 1a, but maybe the characteristics are indeed the same?
+plot(delta7, type="l", ylim=c(-1, 1)) # Now looks like Fig 1a.
 
 # Continue with vignette, and see if can get rest of Fig 1.
 
@@ -137,9 +141,20 @@ plot(simplex_output7$E, simplex_output7$rho, type = "o",
 
 simplex_output7
 # This tells us that E=2 is the optimal embedding dimension (only just though).
+# But paper uses E=3. !?
 
 simplex_output7a <- simplex(delta7, lib, pred, E = 2, tp = 1:10)
 
 plot(simplex_output7a$tp, simplex_output7a$rho, type = "o",
     xlab = "Time to Prediction (tp)", 
     ylab = "Forecast Skill (rho)", xlim=c(0,10), ylim=c(0, 1))
+simplex_output7a
+
+
+# Try E=3
+simplex_output7b <- simplex(delta7, lib, pred, E = 3, tp = 1:10)
+
+plot(simplex_output7b$tp, simplex_output7b$rho, type = "o",
+    xlab = "Time to Prediction (tp)", 
+    ylab = "Forecast Skill (rho)", xlim=c(0,10), ylim=c(0, 1))
+simplex_output7b

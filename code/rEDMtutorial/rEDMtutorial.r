@@ -37,7 +37,7 @@ hist(delta)
 #  helpful to reproduce their results.
 
 # Tent map seems to be
-tentFun = function(x.init, mu, n)
+tentFun = function(x.init, mu, n, eps = .Machine$double.eps)
   {
   # Computes n iterations of tent map, for which
   #  x_{t+1} = mu * min(x_t, 1-x_t)
@@ -51,7 +51,7 @@ tentFun = function(x.init, mu, n)
   #   mu: parameter defining steepness of tent, leading to rich dynamical
   #        behaviour (see Wikipedia page for a summary)
   #   n: length of returned vector consisting of n-1 iterations
-  #
+  #   eps: ** to add to ***
   # Returns:
   #   vector of length n of iterated values
   #
@@ -61,7 +61,8 @@ tentFun = function(x.init, mu, n)
       for(t in 1:(n-1))
           {
             # x[t+1] = mu * min( x[t], 1-x[t] )    # seems to give same as:
-            x[t+1] = mu * x[t] * (x[t] < 0.5) + mu * (1 - x[t]) * (x[t] >= 0.5)
+            x[t+1] = mu * x[t] * (x[t] < 0.5) +
+                mu * (1 - x[t]) * (x[t] >= 0.5) + eps * (mu == 2)
           }
       return(x)
   }
@@ -71,7 +72,7 @@ res1 = tentFun(0.4, 2, 100)
 plot(res1)           # Very curious behaviour, where numerical inaccuracies
                      #  creep in, because should just get 0.4, 0.8, 0.4,0.8,...
                      #  but end up with values that end up at 0.
-res2 = tentFun(0.123, 2, 100)
+res2 = tentFun(0.123, 2, 1000)
 plot(res2)
 plot(res2[-length(res2)], res2[-1])  # Also heads to 0.
 

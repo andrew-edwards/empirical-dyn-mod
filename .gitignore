@@ -4,6 +4,7 @@
 code/ye15reproduce/RMarkdownIntro.Rmd
 edmPapers/rEDMvignette.html
 edmPapers/rEDMvignette_files/*
+talks/nonlinearity_santa_cruz.pdf
 
 *~
 *.txt
@@ -14,3 +15,4 @@ edmPapers/rEDMvignette_files/*
 # though may need to be more specific if we have read...txt files.
 
 .Rhistory
+

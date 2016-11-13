@@ -83,6 +83,8 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 
 **rEDMplay.r** - Bits of code to play with to help understand **rEDM** and try and create some examples, although now testing **rEDM_tutorial.r**. 
 
+So now test if the tutorial code **rEDM_tutorial.r** works okay. And test whether it does reproduce the results in the vignette **rEDM_tutorial.html**, and helps understanding of the methods.
+
 ##code/codeYe15reproduce/
 
 Trying to reproduce the results from **ye15empDynMod.pdf**. Have copied the Supp Info files from **edmPapers/yeEmpDynMod15Data/** and resaved them in the suggested formats (*.xls to *.csv), with the code saved as **ye15origCode.r**.

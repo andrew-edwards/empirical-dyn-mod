@@ -5,6 +5,7 @@ code/ye15reproduce/RMarkdownIntro.Rmd
 edmPapers/rEDMvignette.html
 edmPapers/rEDMvignette_files/*
 talks/nonlinearity_santa_cruz.pdf
+talks/*.pptx
 
 *~
 *.txt

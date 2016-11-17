@@ -85,9 +85,11 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 
 **rEDM_ tutorial.r** - the R code that goes with the tutorial in **rEDM_tutorial.html**
 
+**rEDM_tutorial-ame.r** - Andy adding notes and extra commands to understand the code better. **Work through this in the working group**.
+
 **rEDMplay.r** - Bits of code to play with to help understand **rEDM** and try and create some examples, although now testing **rEDM_tutorial.r**. 
 
-So now test if the tutorial code **rEDM_tutorial.r** works okay. And test whether it does reproduce the results in the vignette **rEDM_tutorial.html**, and helps understanding of the methods.
+So now test if the tutorial code **rEDM_ tutorial.r** works okay. And test whether it does reproduce the results in the vignette **rEDM_tutorial.html**, and helps understanding of the methods.
 
 ##code/codeYe15reproduce/
 

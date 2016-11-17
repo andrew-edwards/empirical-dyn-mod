@@ -11,6 +11,8 @@ Initial investigations and ideas regarding Empirical Dynamic Modelling
 
 **code/rEDMtutorial/** - putting together code to understand EDM.
 
+**code/herring/** - Pacific Herring data from Jaclyn Cleary.
+
 ## Ideas and notes stemming from 16/9/16 meeting (Andy Edwards, Carrie Holt, Sue Grant)
 
 Emprical Dynamical Modelling approach looks promising. We don't fully understand it yet, particularly the math. Also need some more testing and examples to be convinced.
@@ -71,9 +73,11 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 
 **ye15empDynMod.pdf** is the one that uses Sockeye Salmon data and that got us interested in this.
 
-**sugihara90nonlinForecast.pdf** - early paper with simple simulation models and three real data sets. Definitely worth (mostly) understanding as forms the basis for later work, and I think examples are in the **rEDM** package.
+**sugihara12detectCaus.pdf*** - causality in model simulations and sardine-anchovy-SST system.
 
 **glaser14fisheriesEDM.pdf** - application to US fisheries data. 
+
+**sugihara90nonlinForecast.pdf** - early paper with simple simulation models and three real data sets. Definitely worth (mostly) understanding as forms the basis for later work. Andy thought examples are in the **rEDM** package, but now things the methods are updated from the 1990 paper.
 
 ##code/rEDMtutorial/
 
@@ -116,6 +120,13 @@ Understand the three Fig 1 panels, and how they are produced.
 Tricky - there's not a lot of comments in the code. Maybe look at rEDM package first?
 
 <https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html> is a vignette for the package.
+
+##code/herring/
+
+**survey-index-table-for-SR.xlsx** - survey data from Jaclyn Cleary (14 Nov 2016). Units are tonnes of spawners (aged 2-3 to 10 years). Time series is comprised of two surveys: 1951 – 1987 (surface survey)
+1988 – 2016 (dive survey). Publically available data, so okay to share. (Renamed file without spaces).
+ 
+**allcatch2015-16.xlsx** - catch data, see readMe tab for details.
 
 ##
 

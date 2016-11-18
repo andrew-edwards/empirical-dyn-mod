@@ -77,7 +77,11 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 
 **glaser14fisheriesEDM.pdf** - application to US fisheries data. 
 
+**ye16infoLeverage.pdf** - for the three-species Hastings and Powell food-chain model, this paper shows the points on the attractor from doing embeddings for each of the three species' time series. Figures look helpful for understanding. Also flour beetle data.
+
 **sugihara90nonlinForecast.pdf** - early paper with simple simulation models and three real data sets. Definitely worth (mostly) understanding as forms the basis for later work. Andy thought examples are in the **rEDM** package, but now things the methods are updated from the 1990 paper.
+
+**deyle15ecosysInterac.pdf** - changing interactions in a food web.
 
 ##code/rEDMtutorial/
 

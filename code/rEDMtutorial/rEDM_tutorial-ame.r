@@ -9,6 +9,7 @@
 #  install_github("ha0ye/rEDM")
 
 ## ----load tentmap data---------------------------------------------------
+rm(list=ls())
 library(rEDM)
 data(tentmap_del)
 head(tentmap_del)
@@ -25,7 +26,7 @@ simplex_output <- simplex(ts, lib, pred)
 par(mar = c(4,4,1,1), mgp = c(2.5, 1, 0))
 plot(simplex_output$E, simplex_output$rho, type = "l", xlab = "Embedding Dimension (E)", ylab = "Forecast Skill (rho)")
 
-## AME
+## AME:
 # simplex() does quite a lot at once. To understand it better
 ?simplex
 simp = simplex(ts, lib, pred, stats_only = FALSE, E = 3)
@@ -38,9 +39,32 @@ dim(simp2$model_output)
 head(simp2$model_output)
 summary(simp2$model_output)
 
-  
+plot(simp2$model_output$time, simp2$model_output$obs)  # looks like original data
+# But not quite:
+head(simp2$model_output$obs)
+head(ts)
+range( ts[-1] - simp2$model_output$obs[-length(simp2$model_output$obs)])
+                                        # so it cuts off first value (since
+                                        #  I think can never try and fit that?)
 
+plot(simp2$model_output$pred)           # only predicting these ones
 
+sum(!is.na(simp2$model_output$pred))    # only 297 (not 300 = diff(pred)+1;
+                                        #  seems strange).
+
+plot(simp2$model_output$obs, simp2$model_output$pred) # pred vs obs
+abline(0,1)
+
+rho.maybe =
+    cor(simp2$model_output$obs, simp2$model_output$pred, use="complete.obs")
+                                        # So this should be rho, and
+                                        #  presumably shows up in the stats
+                                        #  data.frame?
+summary(simp2)                          # so what is in 'stats'?
+simp2$stats                             # Just a data.frame of one row
+                                        #  (since we're only trying one
+                                        #  combination of settings).
+rho.maybe - simp2$statsrho              # Good.
 
 
 

@@ -9,7 +9,7 @@ Initial investigations and ideas regarding Empirical Dynamic Modelling
 
 **code/ye15reproduce/** - trying to reproduce results from Ye et al. 2015 PNAS paper.
 
-**code/rEDMtutorial/** - putting together code to understand EDM.
+**code/rEDMtutorial/** - putting together code to understand EDM, and work through in working group.
 
 **code/herring/** - Pacific Herring data from Jaclyn Cleary.
 
@@ -91,9 +91,8 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 
 **rEDM_tutorial-ame.r** - Andy adding notes and extra commands to understand the code better. **Work through this in the working group**.
 
-**rEDMplay.r** - Bits of code to play with to help understand **rEDM** and try and create some examples, although now testing **rEDM_tutorial.r**. 
+**rEDMplay.r** - Bits of code to play with to help understand **rEDM** and try and create some examples, although now testing **rEDM_ tutorial.r** and so use **rEDM_tutorial-ame.r** instead. . 
 
-So now test if the tutorial code **rEDM_ tutorial.r** works okay. And test whether it does reproduce the results in the vignette **rEDM_tutorial.html**, and helps understanding of the methods.
 
 ##code/codeYe15reproduce/
 

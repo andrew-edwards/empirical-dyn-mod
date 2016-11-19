@@ -66,7 +66,22 @@ simp2$stats                             # Just a data.frame of one row
                                         #  combination of settings).
 rho.maybe - simp2$statsrho              # Good.
 
+# So what does simplex() actually do???
+simplex
+# I don't get what things like
+#    model$set_time(time)
+#    model$run()
+#  do (though first presumably assigns model$set_time to be time?).
+# Thinking that
+#    model <- new(LNLP)
+#  is the key - LNLP seems to be a C++ compiled object by Hao Ye:
+#   https://www.rdocumentation.org/packages/rEDM/versions/0.4.4/topics/LNLP
+#
+# So being already compiled means that we can't really delve into the details.
 
+
+
+                                         
 
 
 

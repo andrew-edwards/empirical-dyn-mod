@@ -26,6 +26,11 @@ simplex_output <- simplex(ts, lib, pred)
 par(mar = c(4,4,1,1), mgp = c(2.5, 1, 0))
 plot(simplex_output$E, simplex_output$rho, type = "l", xlab = "Embedding Dimension (E)", ylab = "Forecast Skill (rho)")
 
+simplex_output2 <- simplex(ts)
+plot(simplex_output2$E, simplex_output2$rho, type = "l", xlab = "Embedding Dimension (E)", ylab = "Forecast Skill (rho)")
+
+
+
 ## AME:
 # simplex() does quite a lot at once. To understand it better
 ?simplex
@@ -49,8 +54,8 @@ range( ts[-1] - simp2$model_output$obs[-length(simp2$model_output$obs)])
 
 plot(simp2$model_output$pred)           # only predicting these ones
 
-sum(!is.na(simp2$model_output$pred))    # only 297 (not 300 = diff(pred)+1;
-                                        #  seems strange).
+sum(!is.na(simp2$model_output$pred))    # only 297, not 300 = diff(pred)+1;
+                                        # since can't predict first 3(?)
 
 plot(simp2$model_output$obs, simp2$model_output$pred) # pred vs obs
 abline(0,1)
@@ -64,7 +69,7 @@ summary(simp2)                          # so what is in 'stats'?
 simp2$stats                             # Just a data.frame of one row
                                         #  (since we're only trying one
                                         #  combination of settings).
-rho.maybe - simp2$statsrho              # Good.
+rho.maybe - simp2$stats$rho              # Good.
 
 # So what does simplex() actually do???
 simplex
@@ -80,20 +85,29 @@ simplex
 # So being already compiled means that we can't really delve into the details.
 
 
-
-                                         
-
-
-
-
-
-
 ## ----simplex varying tp for tentmap--------------------------------------
 simplex_output <- simplex(ts, lib, pred, E = 2, tp = 1:10)
 
 ## ----rho vs. tp for tentmap, tidy = TRUE, fig.width = 5, fig.height = 3.5----
 par(mar = c(4,4,1,1))
 plot(simplex_output$tp, simplex_output$rho, type = "l", xlab = "Time to Prediction (tp)", ylab = "Forecast Skill (rho)")
+
+simp3 <- simplex(ts, lib, pred, E = 3, tp = 1:10)
+lines(simp3$tp, simp3$rho, col="red")
+simp4 <- simplex(ts, lib, pred, E = 4, tp = 1:10)
+lines(simp4$tp, simp4$rho, col="blue")
+
+
+# Leave one out instead of four-fold cross-validation:
+simplex_output <- simplex(ts, E = 2, tp = 1:10)
+
+## ----rho vs. tp for tentmap, tidy = TRUE, fig.width = 5, fig.height
+plot(simplex_output$tp, simplex_output$rho, type = "l", xlab = "Time to Prediction (tp)", ylab = "Forecast Skill (rho)")
+
+simp3 <- simplex(ts, E = 3, tp = 1:10)
+lines(simp3$tp, simp3$rho, col="red")
+simp4 <- simplex(ts, E = 4, tp = 1:10)
+lines(simp4$tp, simp4$rho, col="blue")
 
 ## ----smap for tentmap----------------------------------------------------
 smap_output <- s_map(ts, lib, pred, E = 2)

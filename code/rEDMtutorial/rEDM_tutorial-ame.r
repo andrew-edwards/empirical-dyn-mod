@@ -24,8 +24,9 @@ simplex_output <- simplex(ts, lib, pred)
 
 ## ----rho vs. E for tentmap, tidy = TRUE, fig.width = 5, fig.height = 3.5----
 par(mar = c(4,4,1,1), mgp = c(2.5, 1, 0))
-plot(simplex_output$E, simplex_output$rho, type = "l", xlab = "Embedding Dimension (E)", ylab = "Forecast Skill (rho)")
+plot(simplex_output$E, simplex_output$rho, xlab = "Embedding Dimension (E)", ylab = "Forecast Skill (rho)")
 
+# Trying leave-one-out
 simplex_output2 <- simplex(ts)
 plot(simplex_output2$E, simplex_output2$rho, type = "l", xlab = "Embedding Dimension (E)", ylab = "Forecast Skill (rho)")
 
@@ -69,7 +70,8 @@ summary(simp2)                          # so what is in 'stats'?
 simp2$stats                             # Just a data.frame of one row
                                         #  (since we're only trying one
                                         #  combination of settings).
-rho.maybe - simp2$stats$rho              # Good.
+rho.maybe
+simp2$stats$rho              # Good.
 
 # So what does simplex() actually do???
 simplex
@@ -87,16 +89,28 @@ simplex
 
 ## ----simplex varying tp for tentmap--------------------------------------
 simplex_output <- simplex(ts, lib, pred, E = 2, tp = 1:10)
+# You can put E as a vector to get combinations.
 
 ## ----rho vs. tp for tentmap, tidy = TRUE, fig.width = 5, fig.height = 3.5----
 par(mar = c(4,4,1,1))
 plot(simplex_output$tp, simplex_output$rho, type = "l", xlab = "Time to Prediction (tp)", ylab = "Forecast Skill (rho)")
 
+# Trying E=3, 4, ...
 simp3 <- simplex(ts, lib, pred, E = 3, tp = 1:10)
 lines(simp3$tp, simp3$rho, col="red")
 simp4 <- simplex(ts, lib, pred, E = 4, tp = 1:10)
 lines(simp4$tp, simp4$rho, col="blue")
 
+# Try random numbers: 
+ts = rnorm(1000)
+out = simplex(ts, lib, pred)
+plot(out$E, out$rho, xlab = "Embedding Dimension (E)", ylab = "Forecast Skill (rho)", type="o")
+
+ts = rnorm(1000)
+out = simplex(ts, lib, pred)
+lines(out$E, out$rho, col="red")
+
+ts = tentmap_del
 
 # Leave one out instead of four-fold cross-validation:
 simplex_output <- simplex(ts, E = 2, tp = 1:10)

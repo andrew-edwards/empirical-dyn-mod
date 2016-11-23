@@ -100,7 +100,11 @@ Trying to reproduce the results from **ye15empDynMod.pdf**. Have copied the Supp
 
 The code saves a number of **.RData**, **.RDS** files (like **.RData** but just for single objects) and **.txt** files which we don't need on GitHub (they should be created on individual's machines). So adding those to **.gitignore**.
 
-**ye15origCode.r** - this has a lot of functions defined that are then run at the end. Andy has it working (running the functions then running line-by-line at the end since it will overwrite figures), and it yields:
+**ye15origCode.r** - this has a lot of functions defined that are then run at the end. Andy has it working (running the functions then running line-by-line at the end since it will overwrite figures), and it yields the results listed below. But use the following code:
+
+**ye15origCodeFunctions.r** - saving just the functions.
+
+**ye15origCodeNoFuns.r** - code to step through.
 
 Fig. 1A - reproduced
 

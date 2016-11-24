@@ -154,7 +154,9 @@ abline(a = 0, b = 1, lty = 2, col = "blue")
 
 ## ----sardine anchovy ccm, tidy = TRUE, warning = FALSE, cache = TRUE-----
 data(sardine_anchovy_sst)
+
 anchovy_xmap_sst <- ccm(sardine_anchovy_sst, E = 3, lib_column = "anchovy", target_column = "np_sst", lib_sizes = seq(10, 80, by = 10), random_libs = FALSE)
+
 sst_xmap_anchovy <- ccm(sardine_anchovy_sst, E = 3, lib_column = "np_sst", target_column = "anchovy", lib_sizes = seq(10, 80, by = 10), random_libs = FALSE)
 
 ## ----sardine anchovy ccm plot, tidy = TRUE, fig.width = 5, fig.height = 3.5----
@@ -165,6 +167,35 @@ par(mar = c(4,4,1,1), mgp = c(2.5, 1, 0))
 plot(a_xmap_t_means$lib_size, pmax(0, a_xmap_t_means$rho), type = "l", col = "red", xlab = "Library Size", ylab = "Cross Map Skill (rho)", ylim = c(0, 0.4))
 lines(t_xmap_a_means$lib_size, pmax(0, t_xmap_a_means$rho), col = "blue")
 legend(x = "topleft", legend = c("anchovy xmap SST", "SST xmap anchovy"), col = c("red", "blue"), lwd = 1, inset = 0.02, cex = 0.8)
+
+# AME: be good to tease out how E=3 drops out - from simplex on
+#  one or other data set:
+plot(sardine_anchovy_sst$year, sardine_anchovy_sst$anchovy, type="o")  # these are first
+                                                                       #  differences
+plot(sardine_anchovy_sst$year, cumsum(sardine_anchovy_sst$anchovy), type="o")
+                                             # looks like the figure in sugihara12 paper
+head(sardine_anchovy_sst)
+anchSimp = simplex(sardine_anchovy_sst)   # shoud be using anchovy
+plot(anchSimp$E, anchSimp$rho, xlab = "Embedding Dimension (E)",
+     ylab = "Forecast Skill (rho)", type="o", ylim=c(-0.4, 1))  # range
+anchSimp2 = simplex(sardine_anchovy_sst$anchovy)   # double check
+points(anchSimp2$E, anchSimp2$rho, type="p", col="red")
+abline(h=0, col="grey")
+# So that's a strange figure for determining E
+
+sardSimp = simplex(sardine_anchovy_sst$sardine)    # Now try sardine
+points(sardSimp$E, sardSimp$rho, col="blue", type="o")
+# even worse
+legend(x = "topright", legend = c("anchovy", "sardine"), col = c("red", "blue"), lwd = 1, inset = 0.02, cex = 0.8)
+
+anchSmap = s_map(sardine_anchovy_sst)
+plot(anchSmap$theta, anchSmap$rho, type="o", xlab = "Nonlinearity (theta)", ylab = "Forecast Skill (rho)", ylim=c(0,1))
+anchSmap2 = s_map(sardine_anchovy_sst, E=2)
+lines(anchSmap2$theta, anchSmap2$rho, type="o", col="red")
+anchSmap3 = s_map(sardine_anchovy_sst, E=3)
+lines(anchSmap3$theta, anchSmap3$rho, type="o", col="blue")
+
+
 
 ## ----load e054 data, tidy = TRUE-----------------------------------------
 data(e054_succession)

@@ -195,6 +195,14 @@ lines(anchSmap2$theta, anchSmap2$rho, type="o", col="red")
 anchSmap3 = s_map(sardine_anchovy_sst, E=3)
 lines(anchSmap3$theta, anchSmap3$rho, type="o", col="blue")
 
+## Checking how you would make a single prediction.
+ts5 = tentmap_del[1:100]
+ts5[100] = NA             # we want to predict this, based on number 99 (and earlier)
+simp5 = simplex(ts5[1:99])
+plot(simp5$E, simp5$rho, xlab = "Embedding Dimension (E)", ylab = "Forecast Skill (rho)")
+# Now want to predict the 100th one:
+simp6 = simplex(ts5, lib=c(1,99), pred=c(100,100), stats_only=FALSE, E=2) # E from figure
+summary(simp6[[1]]$model_output)     # but pred are all NA's. Maybe we can't have pred =c(100,100)
 
 
 ## ----load e054 data, tidy = TRUE-----------------------------------------

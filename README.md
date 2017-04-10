@@ -23,7 +23,7 @@ There's a full CSAS meeting in May/June 2017 of a review of the modelling approa
 
 Potential ideas (in slightly random order):
 
-###Expanding from Sockeye PNAS paper
+### Expanding from Sockeye PNAS paper
  
 1. Reproduce Figure 4 of PNAS Sockeye paper.
 2. Add in some spurious forcing that should have no effect and see how the methods cope with that. This would be a more convincing approach for people than understanding Takens' theorem.
@@ -32,7 +32,7 @@ Potential ideas (in slightly random order):
 macDonald12sockeye.pdf - Res. Doc. has the performance metrics. Sue thinks that they used those ones also but justified the one that they presented (which happened to be the best). Be good for us to investigate the metrics.
 
 
-###Expanding from Ye et al. (2016) 'Information leverage...' Science paper
+### Expanding from Ye et al. (2016) 'Information leverage...' Science paper
 
 1. Get the Hastings and Powell (1991) model working to reproduce what they did. There is recent code on the rEDM GitHub site.
 3. If that is doable then maybe apply to Edwards and Brindley (1996 or 1999) NPZ (nutrient-phytoplankton-zooplankton) model with forcing and noise. This would be good because the dynamical behaviour (without noise) is somewhat understood, as is effect of adding a detritus compartment and changing zooplankton mortality. Can look at areas of parameter space that, without forcing or stochasticity, have a chaotic attractor or just limit cycles (oscillations) or just steady states.   
@@ -44,14 +44,14 @@ macDonald12sockeye.pdf - Res. Doc. has the performance metrics. Sue thinks that 
 8. Understand how to deal with uncertainty of results.
 
 
-###For the Ecosystem Approach workshop
+### For the Ecosystem Approach workshop
 
 1. Need better understanding of the methods.
 2. Need code running for at least the Fraser River Sockeye so we can extend it and explore further ideas.
 3. Have code running for one theoretical model.
 4. Have code set up for multispecies time series, if anyone is bringing one to the workshop. 
 
-##edmPapers/
+## edmPapers/
 
 Folder contains .pdf's of papers to be shared. Plus some movies and Supplementary Info from some papers (including Ye et al. 2015 paper, but the code for that is resaved and usable in **code/ye15reproduce**).
 
@@ -69,7 +69,7 @@ For example, **ye15calCofi.pdf** - 2015 paper, first author Ye, to do with the C
 
 So it will be easy to find papers, and spot if two people upload the same one (and just choose different keywords). Thanks.
 
-###Summary of important papers (not exhaustive)
+### Summary of important papers (not exhaustive)
 
 **ye15empDynMod.pdf** is the one that uses Sockeye Salmon data and that got us interested in this.
 
@@ -83,7 +83,7 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 
 **deyle15ecosysInterac.pdf** - changing interactions in a food web.
 
-##code/rEDMtutorial/
+## code/rEDMtutorial/
 
 **rEDM_ tutorial.html**  vignette for **rEDM**, copied from **...../R/R-3.2.3/library/rEDM/doc/rEDM_tutorial.html**. This is dated 22nd October 2016, and is from installing version 0.5.3 of **rEDM** (Andy just updated, 12th November 2016). Figures only seem to show up in Chrome and not Explorer. Vignette is also online at <https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html> (may work for Explorer?).
 
@@ -94,7 +94,7 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 **rEDMplay.r** - Bits of code to play with to help understand **rEDM** and try and create some examples, although now testing **rEDM_ tutorial.r** and so use **rEDM_tutorial-ame.r** instead. . 
 
 
-##code/codeYe15reproduce/
+## code/codeYe15reproduce/
 
 Trying to reproduce the results from **ye15empDynMod.pdf**. Have copied the Supp Info files from **edmPapers/yeEmpDynMod15Data/** and resaved them in the suggested formats (*.xls to *.csv), with the code saved as **ye15origCode.r**.
 
@@ -122,7 +122,7 @@ Most Supp Info figures can't get produced either
 
 Note that (at least some of) the data are now actually included in **rEDM**.
 
-###TO DO
+### TO DO
 
 Understand the three Fig 1 panels, and how they are produced. 
 
@@ -130,14 +130,12 @@ Tricky - there's not a lot of comments in the code. Maybe look at rEDM package f
 
 <https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html> is a vignette for the package.
 
-##code/herring/
+## code/herring/
 
 **survey-index-table-for-SR.xlsx** - survey data from Jaclyn Cleary (14 Nov 2016). Units are tonnes of spawners (aged 2-3 to 10 years). Time series is comprised of two surveys: 1951 – 1987 (surface survey)
 1988 – 2016 (dive survey). Publically available data, so okay to share. (Renamed file without spaces).
  
 **allcatch2015-16.xlsx** - catch data, see readMe tab for details.
-
-##
 
 ##
 
@@ -259,7 +257,7 @@ To ignore a file, you add that file to the **.gitignore** file for that reposito
 
 pushes your commits back to the version of your repository that is on your GitHub web page.
 
-###To collaborate with others
+### To collaborate with others
 
 Now, the true value of git and GitHub is in collaborating on code or documents. Having forked my repository and then cloned it your computer you have a copy of my files. But what about keeping up-to-date with what I've been doing, and then doing some work yourself that I can then merge into my files? We may not use this full functionality for this project, but in case, here is what we do.
 
@@ -299,6 +297,6 @@ I've purposefully glossed over a few technical things to get you started, and ha
 
 A readable introduction to the general ideas of 'version control' is the manuscript <a href="https://arxiv.org/abs/1609.00037">Good Enough Practices in Scientific Computing</a> (thanks to Carrie for passing this on).
 
-###Simple example
+### Simple example
 
 Maybe worth giving a simple example....

@@ -151,14 +151,14 @@ preprocess_data <- function()
         return(stock_df)
     }
     
-    data <- read.csv("sockeye_datav2.csv")
+    data <- read.csv("sockeye_data.csv")
     
     # filter stocks we don't want
     stock_data <- split(data, data$stk)
     stock_data <- lapply(stock_data, preprocess_stock)
     
     # add env data
-    env_data <- read.csv("env_datav2.csv")
+    env_data <- read.csv("env_data.csv")
     block_data <- lapply(stock_data, function(stock_df) { make_block(stock_df, env_data)})
     
     # save and return
@@ -1420,7 +1420,7 @@ plot_seymour_env_surface <- function(plot_ricker = FALSE)
 
 plot_total_returns <- function()
 {
-    df <- read.csv("sockeye_ret_datav2.csv")
+    df <- read.csv("sockeye_ret_data.csv")
     df$cycle <- factor(df$yr %% 4)
     
     my_plot <- ggplot(data = df, aes(yr, ret, fill = cycle)) + 

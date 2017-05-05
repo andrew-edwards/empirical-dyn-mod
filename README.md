@@ -3,7 +3,7 @@
 **Initial investigations and ideas regarding Empirical Dynamic Modelling.
 Andrew Edwards**
 
-This repository includes a library of papers plus some of the code used by the data-alternative working group at the "Incorporating an ecosystem approach into single-species stock assessments" workshop in Nanaimo, November 2016, as well as ongoing work here. Any results are to be considered preliminary unless later published. Work inititated through discussions between Carrie Holt, Sue Grant and Andrew Edwards.
+This repository includes a library of papers plus some of the code used by the data-alternative working group at the "Incorporating an ecosystem approach into single-species stock assessments" workshop in Nanaimo, November 2016, as well as ongoing work. Any results are to be considered preliminary unless later published. Work inititated through discussions between Carrie Holt, Sue Grant and Andrew Edwards.
   
 It should be useful for those interested in getting started with EDM (see **code/rEDMtutorial/**) or those collaborating with us.
 
@@ -53,7 +53,13 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 
 ## code/rEDMtutorial/
 
-**rEDM_ tutorial.html**  vignette for **rEDM**, copied from **...../R/R-3.2.3/library/rEDM/doc/rEDM_tutorial.html**. This is dated 22nd October 2016, and is from installing version 0.5.3 of **rEDM** (Andy just updated, 12th November 2016). Figures only seem to show up in Chrome and not Explorer. Vignette is also online at <https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html> (may work for Explorer?).
+
+
+**rEDM_ tutorial.html** - vignette for **rEDM**, copied from **...../R/R-3.2.3/library/rEDM/doc/rEDM_tutorial.html**. This is dated 22nd October 2016, and is from installing version 0.5.3 of **rEDM** (Andy just updated, 12th November 2016). Figures only seem to show up in Chrome and not Explorer. Vignette is also online at <https://cran.r-project.org/web/packages/rEDM/vignettes/rEDM_tutorial.html> (may work for Explorer?).
+
+**rEDM_tutorial.Rmd** - **.Rmd** version of the above file (presumably). As we went through the tutorial in our breakout group at the workshop, Jackie King annotated this file with our observations and comments, to give:
+
+**rEDM_tutorial_BG_Comm.Rmd** - above file with annotated breakout group comments, that were (presumably) as Andy went through **rEDM_tutorial-ame.r** with the breakout group.
 
 **rEDM_ tutorial.r** - the R code that goes with the tutorial in **rEDM_tutorial.html**
 

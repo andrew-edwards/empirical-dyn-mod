@@ -1,3 +1,9 @@
+# rEDM_tutorial_BG_Comm.Rmd
+
+BreakoutGroup Notes from TESA Workshop Nov21-25 2016 Nanaimo, with annotations to **rEDM_tutorial.Rmd** denoted with 'BG'.
+
+[Doesn't render in Andy's MarkdownPad2 unlike **rEDM_tutorial.Rmd** - Jackie had same issue so it's probably due to a 'BG' comment somewhere. Feel free to fix it!]
+
 ---
 title: "rEDM: an R package for Empirical Dynamic Modeling and Convergent Cross-Mapping"
 author:
@@ -7,7 +13,6 @@ author:
 - George Sugihara
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette_comments
-BreakoutGroup (BG) Notes from TESA Workshop Nov21-25 2016 Nanaimo
 vignette: >
   %\VignetteIndexEntry{rEDM User Guide}
   %\VignetteEngine{knitr::rmarkdown}
@@ -15,6 +20,7 @@ vignette: >
 csl: ecology.csl
 bibliography: rEDM_refs.bib
 ---
+
 # Introduction
 Empirical dynamic modeling (EDM) is an emerging non-parametric framework for modeling nonlinear dynamic systems. In an ecological context, EDM has numerous applications, including forecasting population abundances, unraveling species interactions, and identifying causal drivers. In contrast to the conventional approach of fitting assumed model equations to data, EDM relies on the fact that ecosystems have dynamics that allows us to reconstruct attractors directly from time series. This approach (with minimal assumptions) makes EDM particularly suitable for studying ecosystems, which exhibit non-equilibrium dynamics (problematic for models that typically assume stable equilibria) and state-dependent behavior (interactions that change with system state). This guide is designed to introduce both the theory behind EDM, as well as providing practical examples for using the rEDM software package.
 
@@ -67,6 +73,7 @@ pred <- c(201, 500)
 ```
 
 This will use the first 100 points (time = 1 to 100) in the time series as the "library" to construct the model, and 300 points (time = 201 to 500) as the "prediction set" to test the model.
+
 ###BG notes
 <<In the Breakout group we also just did the leave-out-one (by simply not putting in lib or pred; this would be required for most fisheries data that is very short in length e.g. snow crab 29 years)>>
 

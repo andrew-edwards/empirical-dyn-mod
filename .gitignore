@@ -2,6 +2,7 @@
 #  So if you do not want to share a file then list it here.
 
 code/ye15reproduce/RMarkdownIntro.Rmd
+code/tutorial/rEDM_tutorial.GroupComments.Rmd     # from Jackie, then renamed
 edmPapers/rEDMvignette.html
 edmPapers/rEDMvignette_files/*
 talks/nonlinearity_santa_cruz.pdf

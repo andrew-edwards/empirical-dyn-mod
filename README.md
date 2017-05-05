@@ -59,7 +59,7 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 
 **rEDM_tutorial.Rmd** - **.Rmd** version of the above file (presumably). As we went through the tutorial in our breakout group at the workshop, Jackie King annotated this file with our observations and comments, to give:
 
-**rEDM_tutorial_BG_Comm.Rmd** - above file with annotated breakout group comments, that were (presumably) as Andy went through **rEDM_tutorial-ame.r** with the breakout group.
+**rEDM_tutorial_BG_Comm.Rmd** - above file with annotated breakout group comments by Jackie King, that were done as Andy went through **rEDM_tutorial-ame.r** with the breakout group. [Jackie's original file was called **rEDM_tutorial_GroupComments.Rmd** but Andy shortened it] 
 
 **rEDM_ tutorial.r** - the R code that goes with the tutorial in **rEDM_tutorial.html**
 

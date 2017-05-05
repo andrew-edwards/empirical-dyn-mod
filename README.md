@@ -5,6 +5,8 @@ Andrew Edwards**
 
 This repository includes a library of papers plus some of the code used by the data-alternative working group at the "Incorporating an ecosystem approach into single-species stock assessments" workshop in Nanaimo, November 2016, as well as ongoing work here. Any results are to be considered preliminary unless later published. Work inititated through discussions between Carrie Holt, Sue Grant and Andrew Edwards.
   
+It should be useful for those interested in getting started with EDM (see **code/rEDMtutorial/**) or those collaborating with us.
+
 [New users to GitHub see the end of this file to get started]
 
 ## Summary of folders (see below for details)
@@ -45,7 +47,7 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 
 **ye16infoLeverage.pdf** - for the three-species Hastings and Powell food-chain model, this paper shows the points on the attractor from doing embeddings for each of the three species' time series. Figures look helpful for understanding. Also flour beetle data.
 
-**sugihara90nonlinForecast.pdf** - early paper with simple simulation models and three real data sets. Definitely worth (mostly) understanding as forms the basis for later work. Andy thought examples are in the **rEDM** package, but now things the methods are updated from the 1990 paper.
+**sugihara90nonlinForecast.pdf** - early paper with simple simulation models and three real data sets. Definitely worth (mostly) understanding as forms the basis for later work. Andy thought examples are in the **rEDM** package, but now thinks the methods are updated from the 1990 paper.
 
 **deyle15ecosysInterac.pdf** - changing interactions in a food web.
 
@@ -70,7 +72,7 @@ The code saves a number of **.RData**, **.RDS** files (like **.RData** but just 
 
 **ye15origCodeFunctions.r** - saving just the functions.
 
-**ye15origCodeNoFuns.r** - code to step through.
+**ye15origCodeNoFuns.r** - code to step through in workshop.
 
 Fig. 1A - reproduced
 
@@ -103,7 +105,11 @@ Tricky - there's not a lot of comments in the code. Maybe look at rEDM package f
  
 **allcatch2015-16.xlsx** - catch data, see readMe tab for details.
 
-## Ideas and notes stemming from 16/9/16 meeting (Andy Edwards, Carrie Holt, Sue Grant)
+We haven't yet looked into this data set.
+
+## Ideas and notes stemming from initial meeting
+
+Andrew Edwards, Carrie Holt, Sue Grant, 16 Sept 2016
 
 Emprical Dynamical Modelling approach looks promising. We don't fully understand it yet, particularly the math. Also need some more testing and examples to be convinced.
 
@@ -136,8 +142,8 @@ macDonald12sockeye.pdf - Res. Doc. has the performance metrics. Sue thinks that 
 
 ### For the Ecosystem Approach workshop
 
-1. Need better understanding of the methods.
-2. Need code running for at least the Fraser River Sockeye so we can extend it and explore further ideas.
+1. Need better understanding of the methods. Done.
+2. Need code running for at least the Fraser River Sockeye example so we can extend it and explore further ideas. Done.
 3. Have code running for one theoretical model.
 4. Have code set up for multispecies time series, if anyone is bringing one to the workshop. 
 

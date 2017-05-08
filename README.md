@@ -11,6 +11,8 @@ It should be useful for those interested in getting started with EDM (see **code
 
 ## Summary of folders (see below for details)
 
+**talks/** - intro and summary talks given at workshop.
+
 **edmPapers/** - collection of papers.
 
 **code/rEDMtutorial/** - putting together code to understand EDM, and work through in working group.
@@ -18,6 +20,12 @@ It should be useful for those interested in getting started with EDM (see **code
 **code/ye15reproduce/** - trying to reproduce results from Ye et al. 2015 PNAS paper.
 
 **code/herring/** - Pacific Herring data from Jaclyn Cleary.
+
+## talks/
+
+**edwardsEDMintro16.pdf** - introduction talk for ecoystem-approach workshop.
+
+**data-alternative-summary.pdf** - summary of the work done on EDM by the data-alternative group at the ecoystem-approach workshop.
 
 ## edmPapers/
 

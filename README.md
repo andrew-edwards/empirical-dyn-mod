@@ -1,11 +1,15 @@
 # empirical-dyn-mod
 
-**Initial investigations and ideas regarding Empirical Dynamic Modelling.
-Andrew Edwards**
+**Investigations and ideas regarding Empirical Dynamic Modelling.**
 
-This repository includes a library of papers plus some of the code used by the data-alternative working group at the "Incorporating an ecosystem approach into single-species stock assessments" workshop in Nanaimo, November 2016, as well as ongoing work. Any results are to be considered preliminary unless later published. Work inititated through discussions between Carrie Holt, Sue Grant and Andrew Edwards.
+**Andrew Edwards**
+
+This repository includes a library of papers plus some of the code used by the data-alternative working group at the "Incorporating an ecosystem approach into single-species stock assessments" workshop at Nanaimo in November 2016. The Proceedings document that describes the activities of the workshop is available at <http://publications.gc.ca/collections/collection_2017/mpo-dfo/Fs97-6-3213-eng.pdf>.
+
+Any results here are to be considered preliminary unless later published. The work was inititated through discussions between Carrie Holt, Sue Grant and Andrew Edwards.
   
-It should be useful for those interested in getting started with EDM (see **code/rEDMtutorial/**) or those collaborating with us.
+This repository should be useful for those interested in getting started with EDM (see **code/rEDMtutorial/**) or those collaborating with us. Ongoing work is being done in a GitHub repository (**edm-work**) that is currently private.
+
 
 [New users to GitHub see the end of this file to get started]
 

@@ -63,6 +63,14 @@ So it will be easy to find papers, and spot if two people upload the same one (a
 
 **deyle15ecosysInterac.pdf** - changing interactions in a food web.
 
+Various 2017 papers that are starting to look at stock assessment model output and/or environmental influences, such as:
+
+**liu17redSnapper.pdf** - not read yet
+
+**harford17tunaRecruit.pdf** - not read yet
+
+**storch17stockAssEcoMod.pdf** - not read yet
+
 ## code/rEDMtutorial/
 
 

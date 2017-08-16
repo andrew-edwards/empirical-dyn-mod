@@ -123,7 +123,7 @@ Tricky - there's not a lot of comments in the code. Maybe look at rEDM package f
  
 **allcatch2015-16.xlsx** - catch data, see readMe tab for details.
 
-We haven't yet looked into this data set.
+We haven't yet looked into this data set. AME (16/8/17) took a quick look and realised there are quite a few zeros, so may not be the best example data set to use.
 
 ## Ideas and notes stemming from initial meeting
 

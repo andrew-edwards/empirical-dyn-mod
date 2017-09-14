@@ -6,10 +6,11 @@
 
 This repository includes a library of papers plus some of the code used by the data-alternative working group at the "Incorporating an ecosystem approach into single-species stock assessments" workshop at Nanaimo in November 2016. The Proceedings document that describes the activities of the workshop is available at <http://publications.gc.ca/collections/collection_2017/mpo-dfo/Fs97-6-3213-eng.pdf>.
 
-Any results here are to be considered preliminary unless later published. The work was inititated through discussions between Carrie Holt, Sue Grant and Andrew Edwards.
+Any results here are to be considered preliminary unless later published. The work was initiated through discussions between Carrie Holt, Sue Grant and Andrew Edwards.
   
 This repository should be useful for those interested in getting started with EDM (see **code/rEDMtutorial/**) or those collaborating with us. Ongoing work is being done in a GitHub repository (**edm-work**) that is currently private.
 
+This general-audience <a href="https://www.wired.com/2015/10/is-it-foolish-to-model-natures-complexity-with-equations/"> Wired article</a> might be a good place to start.  
 
 [New users to GitHub see the end of this file to get started]
 
